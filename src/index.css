@@ -35,7 +35,7 @@
     font-weight: 600;
  }
  .section-2-head{
-    color: #b27f4a;
+    color: #422a1d;
     font-weight: 700;
     font-size: 40px;
  }
@@ -75,3 +75,74 @@
     font-size: 15px;
     font-weight: 600;
  }
+.right-heading h6 {
+  font-size: 23px;
+  font-weight: 200;
+}
+.main-banner-heading {
+  font-size: 180px;
+  font-weight: 800;
+  line-height: 130px;
+}
+.right-heading span {
+  font-weight: 800;
+}
+.sub-heading {
+  font-size: 23px;
+}
+.bottom-heading {
+  font-size: 22px;
+  font-weight: 800;
+}
+.right-col {
+  max-width: 25%;
+}
+.chairmain-inner{
+    color: #422a1d;
+}
+.chairmain-msg{
+    margin-top: 30px;
+    color: #422a1d;
+}
+.membership h4{
+    font-size: 40px;
+    color: #ce9c69;
+    font-weight: 700;
+     
+}
+.membership p{
+    color: #fff;
+}
+.membership-btn{
+    border-radius: 50px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border: 1px solid white;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 20px;
+}
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  font-size: 10px;
+}
+
+.mainSwiper .swiper-button-prev,
+.mainSwiper .swiper-button-next {
+  position: absolute;
+  top: 80%;
+  margin: 20px;
+}
+.mainSwiper .swiper-button-prev {
+  left: 80%;
+}
+.mainSwiper .swiper-button-next {
+  right: 10%;
+}
