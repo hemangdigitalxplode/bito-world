@@ -25,3 +25,53 @@
  .right-col{
     max-width: 25%;
  }
+ .section-2-btn{
+    border-radius: 50px;
+    border: none;
+    background-color: #422a1d;
+    color: white;
+    font-size: 15px;
+    margin-top: 80px;
+    font-weight: 600;
+ }
+ .section-2-head{
+    color: #b27f4a;
+    font-weight: 700;
+    font-size: 40px;
+ }
+ .section-2-img{
+    max-width: 100%;
+     
+ }
+ .section-2-row{
+    margin-top: 30px;
+ }
+  
+ .left-side-div{
+    max-width: 40%;
+ }
+ .left-side-div span{
+    font-size: 22px;
+    margin-top: 20px;
+ }
+ .section-para{
+    margin-top: 35px;
+ }
+ .section-3-heading{
+    font-size: 50px;
+  font-weight: 600;
+  color: #b27f4a;
+ }
+ .chairman{
+    font-size: 22px;
+    color: #523b2f;
+    font-weight: 600;
+ }
+ .section-3-btn{
+    border-radius: 50px;
+    border: none;
+    background-color: #422a1d;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+ }
