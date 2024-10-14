@@ -1,0 +1,27 @@
+ 
+ 
+ 
+ 
+ 
+ .right-heading h6 {
+     font-size: 23px;
+     font-weight: 200;
+ }
+ .main-banner-heading{
+    font-size: 180px;
+    font-weight: 800;
+    line-height: 130px;
+ }
+ .right-heading span{
+    font-weight: 800;
+ }
+ .sub-heading{
+    font-size: 23px;
+ }
+ .bottom-heading{
+    font-size: 22px;
+    font-weight: 800;
+ }
+ .right-col{
+    max-width: 25%;
+ }
