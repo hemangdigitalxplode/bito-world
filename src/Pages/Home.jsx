@@ -6,6 +6,8 @@ import Section2 from '../assets/section-2.png'
 import Section3 from '../assets/chirag-paswan.png'
 import PravinKumar from '../assets/pravin-kumar.png'
 import MembershipImg from '../assets/membership.png'
+import Vision from '../assets/Layer-21.png'
+import Mission from '../assets/Layer-22.png'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
@@ -319,24 +321,63 @@ const Home = () => {
             {/* Fifth Section */}
             <Container className='my-5'>
                 <Row style={{ background: '#422a1d' }}>
-                     
-                        <Col className='p-5' lg={4}>
-                            <div className='membership'>
-                                <h4>Memebership</h4>
-                                <p>Membership in BITO will be open to individuals, entrepreneurs, industrialists, professionals, and organizations having a connection to Bihar and sharing the vision and values of the organization.</p>
-                                <div>
-                                    <Button className='membership-btn px-4 mt-4'>Become A Member</Button>
-                                </div>
-                            </div>  
-                        </Col>
-                        <Col lg={8}>
-                            <Image className='mw-100' src={MembershipImg} alt='membership-img' />
-                        </Col>
-                    
 
+                    <Col className='p-5' lg={4}>
+                        <div className='membership'>
+                            <h4>Memebership</h4>
+                            <p>Membership in BITO will be open to individuals, entrepreneurs, industrialists, professionals, and organizations having a connection to Bihar and sharing the vision and values of the organization.</p>
+                            <div>
+                                <Button className='membership-btn px-4 mt-4'>Become A Member</Button>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col lg={8}>
+                        <Image className='mw-100' src={MembershipImg} alt='membership-img' />
+                    </Col>
                 </Row>
 
             </Container>
+
+            {/* Sixth section */}
+            <div>
+                <Container style={{ backgroundColor: '#422a1e' }}>
+                    <Row>
+                        <Col lg={6}>
+                            <div className='vision'>
+                                <div>
+                                    <img src={Vision} alt="" />
+                                    <span>Vision</span>
+                                </div>
+                                <p>
+                                    BITO envisions itself as a catalyst for transformation of Bihar leading to a future state where Bihar stands as a global leader in economic innovation, cultural heritage, and social progress.
+
+                                    By empowering local industries, nurturing entrepreneurship, and preserving its rich cultural legacy, BITO aims to position Bihar as a dynamic and resilient community that inspires pride and prosperity for generations to come.
+                                </p>
+
+                            </div>
+                        </Col>
+
+
+
+                        <Col lg={6}>
+                            <div className='mission'>
+                                <div>
+                                    <img src={Mission} alt="" />
+                                    <span>Mission</span>
+                                </div>
+                                <p>
+                                    BITO’s mission is to catalyze economic growth and cultural pride in Bihar by fostering innovation, supporting entrepreneurship, and promoting global recognition of its rich heritage.
+
+                                    Through strategic partnerships and community-driven initiatives, BITO seeks to empower Biharis worldwide, enhancing their economic opportunities and cultural identity while driving positive transformation within and beyond the state.
+
+
+                                </p>
+
+                            </div>
+                        </Col>
+                    </Row>
+                </Container>
+            </div>
 
 
 
