@@ -366,3 +366,64 @@
     background-color: transparent;
     border-color: white;
  }
+
+
+
+ /* Vertical lines */
+ .vertical-line {
+   position: absolute;
+   height: 100vh; /* Full height */
+   width: 10px;
+   background-color: #8B5E3C; /* Brown color */
+   margin: 0 auto;
+ }
+
+ /* Circular elements on the line */
+ .circle {
+   position: absolute;
+   width: 20px;
+   height: 20px;
+   background-color: #8B5E3C;
+   border-radius: 50%;
+   left: 50%;
+   transform: translateX(-50%);
+ }
+
+ /* Positioning circles along the line */
+ .circle-top {
+   top: 10%;
+ }
+
+ .circle-middle {
+   top: 50%;
+   transform: translate(-50%, -50%);
+ }
+
+ .circle-bottom {
+   top: 90%;
+ }
+
+
+ .vl {
+   border-left: 10px solid #9c7041;
+   height: 100%;
+   /* position: absolute; */
+   /* left: 50%; */
+   margin-left: -3px;
+   /* top: 0; */
+ }
+ .middle-line::before {
+   content: "";
+   position: relative;
+   width: 40px;
+   height: 40px;
+   background-color: #9c7041;
+   border-radius: 50%;
+    left: 22px;
+   top: -52%;  
+ }
+ .middle-line{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }

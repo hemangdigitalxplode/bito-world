@@ -5,6 +5,7 @@ import { Button, Col, Container, Image, Row } from 'react-bootstrap'
 import RightArrow from '../assets/right-arrow.png'
 import Kamal from '../assets/kamal.png'
 import MembershipCTA from '../Components/MembershipCTA'
+import Roadmap from '../Components/Roadmap'
 
 const Membership = () => {
     return (
@@ -71,7 +72,7 @@ const Membership = () => {
 
                 <Row>
                     <Col className='left-side-div' lg={4}>
-                        <h2 style={{color:'#b27f4a'}} className='section-2-head'>Transform Bihar <br /> Together, We Can</h2> 
+                        <h2 style={{ color: '#b27f4a' }} className='section-2-head'>Transform Bihar <br /> Together, We Can</h2>
                         <div className='section-para'>
                             <p>BITO invites investors, organizations, NRIs, and HNIs to be part of this transformative journey.</p>
 
@@ -79,7 +80,7 @@ const Membership = () => {
                                 With a dedicated team, advanced infrastructure, and extensive resources, we offer a seamless experience through our Single-Window Clearance system.
                             </p>
                             <p>
-                                <span style={{fontWeight:'bold'}}>Explore diverse opportunities </span>
+                                <span style={{ fontWeight: 'bold' }}>Explore diverse opportunities </span>
                                 to make
                                 a significant impact:
                             </p>
@@ -87,7 +88,7 @@ const Membership = () => {
                         </div>
 
 
-                       
+
                     </Col>
 
 
@@ -98,23 +99,29 @@ const Membership = () => {
 
 
                     <Col
-                    style={{
-                        display:'flex',
-                        justifyContent:'center',
-                        alignItems:'center'
-                    }}
-                    lg={8}>
+                        style={{
+                            display: 'flex',
+                            justifyContent: 'center',
+                            alignItems: 'center'
+                        }}
+                        lg={8}>
 
                         <Image style={{ width: '70%' }} src={Kamal} alt="img" />
                     </Col>
                 </Row>
             </Container>
-            
+
 
             {/* Forth Seciton */}
+            <Roadmap />
+
+
+
+
+
 
             {/* CTA here */}
-            <MembershipCTA/>
+            <MembershipCTA />
 
 
         </>
