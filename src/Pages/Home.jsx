@@ -1,4 +1,4 @@
- 
+
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import BannerHome from '../assets/home-baner.png'
@@ -27,6 +27,7 @@ import {
     Layer34,
     ObjectiveGoals,
 } from "../assets";
+import OurPartner from '../Components/OurPartner'
 const Home = () => {
     return (
         <>
@@ -66,15 +67,13 @@ const Home = () => {
                                 <p className="bottom-heading">
                                     Empowering Bihar - Inspiring World
                                 </p>
-                                <Button
-                                    style={{
-                                        borderColor: "white",
-                                        fontSize: "12px",
-                                        borderRadius: "50px",
-                                    }}
-                                    className="rounded-full bg-white text-black outline-none border-none px-3 py-1 text-small"
-                                >
-                                    BECOME A MEMBER
+                                <Button style={{
+                                    borderColor: "white",
+                                    fontSize: "18px",
+                                    borderRadius: "50px",
+                                    marginTop: '30px'
+                                }}
+                                    className="rounded-full bg-white text-black outline-none border-none px-4 py-2 text-small">Become a Member
                                 </Button>
                             </Col>
 
@@ -580,6 +579,11 @@ const Home = () => {
                     Read more
                 </button>
             </Container>
+
+            <div className='my-5'>
+                <OurPartner />
+            </div>
+
 
 
 

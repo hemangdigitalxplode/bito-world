@@ -24,8 +24,8 @@ const Footer = () => {
 
 
 
-                        <Col style={{ width: '70%' }} lg={10}>
-                            <p>Welcome to BITO, your partner in discovering the vibrant history and promising future of Bihar. Our organization is dedicated to preserving Bihar's cultural heritage while simultaneously creating new opportunities for education, employment, and economic growth.</p>
+                        <Col style={{ width: '80%' }} lg={10}>
+                            <p style={{paddingTop:'40px'}}>Welcome to BITO, your partner in discovering the vibrant history and promising future of Bihar. Our organization is dedicated to preserving Bihar's cultural heritage while simultaneously creating new opportunities for education, employment, and economic growth.</p>
 
 
                             <p>Bihar International Trade Organization (BITO) Preserving Heritage, Creating Opportunities Explore the rich tapestry of Bihar's history and culture, where the past meets the future. BITO is your gateway to a rejuvenated Bihar, dedicated to preserving its heritage while paving the way for progress.</p>
@@ -48,7 +48,7 @@ const Footer = () => {
 
 
 
-                        <Col style={{width:'12%'}} className='' lg={3}>
+                        <Col style={{width:'12%'}} className='quick-links-container' lg={3}>
                             <div className='quick-links'>
                                 <p>Quick Links</p>
                                 <li>Home</li>
@@ -61,7 +61,7 @@ const Footer = () => {
 
 
 
-                        <Col className='' style={{width:'13%'}} lg={3}>
+                        <Col className='quick-links-container-2' style={{width:'13%'}} lg={3}>
                             <div className='quick-links-2'>
                                 <li>EOI for BIA</li>
                                 <li>BSIC</li>

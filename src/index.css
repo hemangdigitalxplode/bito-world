@@ -231,25 +231,138 @@
  .quick-links li {
     list-style: none;
  }
- .quick-links-2 li{
-   list-style: none;
+
+ .quick-links-2 li {
+    list-style: none;
  }
- .footer-input{
-   background-color: white;
-   border-radius: 50px;
-   padding: 3px 20px;
-   border-color: white;
-   border: none;
+
+ .footer-input {
+    background-color: white;
+    border-radius: 50px;
+    padding: 3px 20px;
+    border-color: white;
+    border: none;
  }
- .subs-btn{
-   border-radius: 50px;
-   border: none;
-   background-color: #b27f4a;
-   color: #fff;
-   font-size: 15px;
-   font-weight: 600;
-    
+
+ .subs-btn {
+    border-radius: 50px;
+    border: none;
+    background-color: #b27f4a;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+
  }
- .social-links-img{
-   width: 90%;
+
+ .social-links-img {
+    width: 90%;
+ }
+
+ .newsletter-div {
+    padding-left: 60px;
+ }
+
+ .quick-links-container {
+    padding-left: 50px;
+ }
+
+ .quick-links-container-2 {
+    padding-left: 40px;
+ }
+
+
+
+
+
+
+
+ .partner-btn {
+    padding: 15px 19px;
+    border-radius: 10px;
+    background: transparent;
+    border-color: #b27f4a;
+    color: #b17e4a;
+    font-weight: 700;
+    font-size: 25px;
+ }
+
+ .partner-btn:hover {
+    background-color: #422a1d;
+    border-color: #422a1d;
+    color: #cf9b69;
+ }
+
+ .partner-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    flex-grow: 1;
+ }
+
+ .our-partner-head {
+    font-size: 50px;
+    font-weight: 600;
+    color: #b27f4a;
+ }
+
+
+
+
+ /* Membership page */
+
+ .main-banner-heading-membership {
+    font-size: 100px;
+    font-weight: 800;
+    line-height: 95px;
+ }
+
+ .member-btn {
+    border-radius: 35px;
+    background-color: transparent;
+    color: #9c7041;
+    padding: 0 60px;
+    border-color: #9c7041;
+    font-size: 30px;
+    font-weight: 700;
+ }
+
+ .member-btn:hover {
+    background-color: #9c7041;
+    border-color: #9c7041;
+ }
+
+ .membership-heading {
+    font-size: 100px;
+    font-weight: 700;
+    color: #b27f4a;
+ }
+
+ .membership-cta span {
+    font-weight: 700;
+    font-size: 40px;
+ }
+
+ .membership-right-cta-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .enroll-now-btn {
+    padding: 20px 70px;
+    border-radius: 50px;
+    font-size: 30px;
+    background: transparent;
+    border-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+ }
+
+ .enroll-now-btn:hover {
+    background-color: transparent;
+    border-color: white;
  }

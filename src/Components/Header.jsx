@@ -17,7 +17,7 @@ const Header = () => {
             <Nav.Link href="#home" className="text-white">
               <GiHamburgerMenu size={30} />
             </Nav.Link>
-            <Nav.Link href="#home" className="text-white">
+            <Nav.Link href="/" className="text-white">
               Home
             </Nav.Link>
             <Nav.Link href="#about" className="text-white">
@@ -58,7 +58,7 @@ const Header = () => {
             <Nav.Link href="#contact" className="text-white">
               Contact
             </Nav.Link>
-            <Nav.Link href="#contact" className="text-white">
+            <Nav.Link href="/membership" className="text-white">
               Membership
             </Nav.Link>
           </Nav>
