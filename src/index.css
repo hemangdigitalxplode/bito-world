@@ -1,31 +1,32 @@
- 
- 
- 
- 
- 
  .right-heading h6 {
-     font-size: 23px;
-     font-weight: 200;
+    font-size: 23px;
+    font-weight: 200;
  }
- .main-banner-heading{
+
+ .main-banner-heading {
     font-size: 180px;
     font-weight: 800;
     line-height: 130px;
  }
- .right-heading span{
+
+ .right-heading span {
     font-weight: 800;
  }
- .sub-heading{
+
+ .sub-heading {
     font-size: 23px;
  }
- .bottom-heading{
+
+ .bottom-heading {
     font-size: 22px;
     font-weight: 800;
  }
- .right-col{
+
+ .right-col {
     max-width: 25%;
  }
- .section-2-btn{
+
+ .section-2-btn {
     border-radius: 50px;
     border: none;
     background-color: #422a1d;
@@ -34,40 +35,48 @@
     margin-top: 80px;
     font-weight: 600;
  }
- .section-2-head{
+
+ .section-2-head {
     color: #422a1d;
     font-weight: 700;
     font-size: 40px;
  }
- .section-2-img{
+
+ .section-2-img {
     max-width: 100%;
-     
+
  }
- .section-2-row{
+
+ .section-2-row {
     margin-top: 30px;
  }
-  
- .left-side-div{
+
+ .left-side-div {
     max-width: 40%;
  }
- .left-side-div span{
+
+ .left-side-div span {
     font-size: 22px;
     margin-top: 20px;
  }
- .section-para{
+
+ .section-para {
     margin-top: 35px;
  }
- .section-3-heading{
+
+ .section-3-heading {
     font-size: 50px;
-  font-weight: 600;
-  color: #b27f4a;
+    font-weight: 600;
+    color: #b27f4a;
  }
- .chairman{
+
+ .chairman {
     font-size: 22px;
     color: #523b2f;
     font-weight: 600;
  }
- .section-3-btn{
+
+ .section-3-btn {
     border-radius: 50px;
     border: none;
     background-color: #422a1d;
@@ -75,45 +84,56 @@
     font-size: 15px;
     font-weight: 600;
  }
-.right-heading h6 {
-  font-size: 23px;
-  font-weight: 200;
-}
-.main-banner-heading {
-  font-size: 180px;
-  font-weight: 800;
-  line-height: 130px;
-}
-.right-heading span {
-  font-weight: 800;
-}
-.sub-heading {
-  font-size: 23px;
-}
-.bottom-heading {
-  font-size: 22px;
-  font-weight: 800;
-}
-.right-col {
-  max-width: 25%;
-}
-.chairmain-inner{
+
+ .right-heading h6 {
+    font-size: 23px;
+    font-weight: 200;
+ }
+
+ .main-banner-heading {
+    font-size: 180px;
+    font-weight: 800;
+    line-height: 130px;
+ }
+
+ .right-heading span {
+    font-weight: 800;
+ }
+
+ .sub-heading {
+    font-size: 23px;
+ }
+
+ .bottom-heading {
+    font-size: 22px;
+    font-weight: 800;
+ }
+
+ .right-col {
+    max-width: 25%;
+ }
+
+ .chairmain-inner {
     color: #422a1d;
-}
-.chairmain-msg{
+ }
+
+ .chairmain-msg {
     margin-top: 30px;
     color: #422a1d;
-}
-.membership h4{
+ }
+
+ .membership h4 {
     font-size: 40px;
     color: #ce9c69;
     font-weight: 700;
-     
-}
-.membership p{
+
+ }
+
+ .membership p {
     color: #fff;
-}
-.membership-btn{
+ }
+
+ .membership-btn {
     border-radius: 50px;
     border: none;
     background-color: transparent;
@@ -121,28 +141,115 @@
     font-size: 15px;
     font-weight: 600;
     border: 1px solid white;
-}
+ }
 
-.swiper-button-next,
-.swiper-button-prev {
-  border: 1px solid white;
-  border-radius: 50%;
-  padding: 20px;
-}
-.swiper-button-prev:after,
-.swiper-button-next:after {
-  font-size: 10px;
-}
+ .vision span {
+    font-size: 50px;
+    font-weight: 600;
+    color: #ce9c69;
+ }
 
-.mainSwiper .swiper-button-prev,
-.mainSwiper .swiper-button-next {
-  position: absolute;
-  top: 80%;
-  margin: 20px;
-}
-.mainSwiper .swiper-button-prev {
-  left: 80%;
-}
-.mainSwiper .swiper-button-next {
-  right: 10%;
-}
+ .mission span {
+    font-size: 50px;
+    font-weight: 600;
+    color: #ce9c69;
+ }
+
+ .mission img {
+    width: 12%;
+ }
+
+ .vision img {
+    width: 12%;
+ }
+
+ .vision p {
+    font-size: 14px;
+    margin-top: 25px;
+ }
+
+ .mission p {
+    font-size: 14px;
+    margin-top: 25px;
+ }
+
+ .vision-btn {
+    border-radius: 50px;
+    border: none;
+    background-color: #fff;
+    color: #422a1d;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 30px;
+ }
+
+ .swiper-button-next,
+ .swiper-button-prev {
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 20px;
+ }
+
+ .swiper-button-prev:after,
+ .swiper-button-next:after {
+    font-size: 10px;
+ }
+
+ .mainSwiper .swiper-button-prev,
+ .mainSwiper .swiper-button-next {
+    position: absolute;
+    top: 80%;
+    margin: 20px;
+ }
+
+ .mainSwiper .swiper-button-prev {
+    left: 80%;
+ }
+
+ .mainSwiper .swiper-button-next {
+    right: 10%;
+ }
+
+
+ /* Footer CSS */
+ .footer-logo {
+    width: 70%;
+ }
+
+ .address-div span {
+    font-weight: 700;
+    color: #422a1e;
+ }
+
+ .address-para {}
+
+ .email span {
+    font-weight: 700;
+    color: #422a1e;
+ }
+
+ .quick-links li {
+    list-style: none;
+ }
+ .quick-links-2 li{
+   list-style: none;
+ }
+ .footer-input{
+   background-color: white;
+   border-radius: 50px;
+   padding: 3px 20px;
+   border-color: white;
+   border: none;
+ }
+ .subs-btn{
+   border-radius: 50px;
+   border: none;
+   background-color: #b27f4a;
+   color: #fff;
+   font-size: 15px;
+   font-weight: 600;
+    
+ }
+ .social-links-img{
+   width: 90%;
+ }

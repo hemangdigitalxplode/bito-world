@@ -1,3 +1,4 @@
+ 
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import BannerHome from '../assets/home-baner.png'
@@ -12,6 +13,20 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
+import {
+    Layer23,
+    Layer24,
+    Layer25,
+    Layer26,
+    Layer27,
+    Layer28,
+    Layer29,
+    Layer30,
+    Layer31,
+    Layer33,
+    Layer34,
+    ObjectiveGoals,
+} from "../assets";
 const Home = () => {
     return (
         <>
@@ -339,35 +354,41 @@ const Home = () => {
             </Container>
 
             {/* Sixth section */}
-            <div>
-                <Container style={{ backgroundColor: '#422a1e' }}>
-                    <Row>
-                        <Col lg={6}>
+            <div style={{ backgroundColor: '#422a1e' }}>
+                <Container>
+                    <Row style={{ padding: '35px 0' }}>
+                        <Col style={{ width: '45%' }} lg={6}>
                             <div className='vision'>
-                                <div>
+                                <div style={{ gap: '20px' }} className='d-flex align-items-center'>
                                     <img src={Vision} alt="" />
                                     <span>Vision</span>
                                 </div>
-                                <p>
+                                <p className='text-white'>
                                     BITO envisions itself as a catalyst for transformation of Bihar leading to a future state where Bihar stands as a global leader in economic innovation, cultural heritage, and social progress.
-
+                                    <br />
+                                    <br />
                                     By empowering local industries, nurturing entrepreneurship, and preserving its rich cultural legacy, BITO aims to position Bihar as a dynamic and resilient community that inspires pride and prosperity for generations to come.
                                 </p>
+
+                                <div>
+                                    <Button className='vision-btn px-4 py-2'>Read More</Button>
+                                </div>
 
                             </div>
                         </Col>
 
 
 
-                        <Col lg={6}>
+                        <Col className='mx-auto' style={{ width: '45%' }} lg={6}>
                             <div className='mission'>
-                                <div>
+                                <div style={{ gap: '20px' }} className='d-flex align-items-center'>
                                     <img src={Mission} alt="" />
                                     <span>Mission</span>
                                 </div>
-                                <p>
+                                <p className='text-white'>
                                     BITO’s mission is to catalyze economic growth and cultural pride in Bihar by fostering innovation, supporting entrepreneurship, and promoting global recognition of its rich heritage.
-
+                                    <br />
+                                    <br />
                                     Through strategic partnerships and community-driven initiatives, BITO seeks to empower Biharis worldwide, enhancing their economic opportunities and cultural identity while driving positive transformation within and beyond the state.
 
 
@@ -378,6 +399,187 @@ const Home = () => {
                     </Row>
                 </Container>
             </div>
+
+            {/* Seventh section */}
+
+            <Container className="my-5 d-flex">
+                <div className="w-50">
+                    <h2
+                        style={{
+                            fontSize: "25px",
+                            position: "relative",
+                            color: "#b27f4a",
+                            marginTop: "30px",
+                            fontWeight: "600",
+                        }}
+                    >
+                        Objectives
+                    </h2>
+                    <p>
+                        BITO operates with a clear set of objectives that guide its
+                        activities and initiatives. These objectives are designed to address
+                        the diverse needs of the Bihari community, from economic empowerment
+                        to cultural preservation
+                    </p>
+                    <div className="d-flex flex-wrap">
+                        <div className="d-flex flex-wrap flex-grow-1 my-4 mx-1">
+                            <div className="w-50 px-4 border-bottom">
+                                <Image src={Layer23} alt="" />
+                                <p>
+                                    <strong>Economic Empowerment</strong>
+                                </p>
+                            </div>
+                            <div className="w-50 px-4 pb-4 border-bottom border-start">
+                                <Image src={Layer24} alt="" />
+                                <p>
+                                    <strong>Cultural Preservation & Promotion</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div className="d-flex px-4 flex-wrap flex-grow-1 my-4">
+                            <div className="w-50">
+                                <Image src={Layer25} alt="" />
+                                <p>
+                                    <strong>Global Collaboration</strong>
+                                </p>
+                            </div>
+                            <div className="w-50 px-4 border-start">
+                                <Image src={Layer26} alt="" />
+                                <p>
+                                    <strong>Inclusitivity & Sustainability</strong>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <button className="section-3-btn px-4 py-2 btn btn-primary">
+                        Read more
+                    </button>
+                </div>
+                <div className="w-50">
+                    <Image src={ObjectiveGoals} alt="" className="w-100" />
+                </div>
+            </Container>
+
+            {/* Eight section */}
+
+            <div style={{ marginTop: "80px", backgroundColor: "#fffbf5" }}>
+                <Container
+                    className="mb-5 py-5 text-center"
+                    style={{ marginTop: "80px" }}
+                >
+                    <h1 className="text-center section-3-heading">BITO Bodies</h1>
+                    <p>
+                        BITO Arms are specialized divisions within the Bihar International
+                        Trade Organization that focus on different aspects of its mission
+                    </p>
+                    <div className="d-flex justify-content-center gap-5 my-5">
+                        <div className="d-flex flex-column align-items-center px-5">
+                            <Image
+                                className="section-2-img p-3"
+                                src={Layer27}
+                                alt="section-2 img"
+                                width={100}
+                                height={100}
+                            />
+                            <strong>
+                                BITO Startup & <br />
+                                Incubation Centre <br />
+                                (BSIC)
+                            </strong>
+                        </div>
+                        <div className="d-flex flex-column align-items-center px-5 border-start border-end">
+                            <Image
+                                className="section-2-img p-3"
+                                src={Layer28}
+                                alt="section-2 img"
+                                width={100}
+                                height={100}
+                            />
+                            <strong>
+                                BITO Bihar Asmita
+                                <br />
+                                Foundation
+                            </strong>
+                        </div>
+                        <div className="d-flex flex-column align-items-center px-5">
+                            <Image
+                                className="section-2-img p-3"
+                                src={Layer29}
+                                alt="section-2 img"
+                                width={100}
+                                height={100}
+                            />
+                            <strong>
+                                BITO Industries <br />
+                                Association (BIA)
+                            </strong>
+                        </div>
+                    </div>
+                    <button className="section-3-btn px-4 py-2 btn btn-primary">
+                        Read more
+                    </button>
+                </Container>
+            </div>
+
+            {/* ninth section */}
+
+            <Container className="text-center my-5">
+                <h1 className="text-center section-3-heading">
+                    Key Programs & Initiatives
+                </h1>
+                <p>
+                    BITO has launched several impactful programs and initiatives that are
+                    designed to address the needs of the Bihari community across various
+                    domains
+                </p>
+                <div className="d-flex justify-content-center gap-5 my-5">
+                    <div className="d-flex flex-column align-items-center px-5">
+                        <Image
+                            className="section-2-img p-3"
+                            src={Layer30}
+                            alt="section-2 img"
+                            width={80}
+                            height={80}
+                        />
+                        <strong>Business Connect and Collaboration</strong>
+                    </div>
+                    <div className="d-flex flex-column align-items-center px-5 border-start border-end">
+                        <Image
+                            className="section-2-img p-3"
+                            src={Layer31}
+                            alt="section-2 img"
+                            width={80}
+                            height={80}
+                        />
+                        <strong>
+                            Global Bihar Heritage and Spiritual Destination Initiative
+                        </strong>
+                    </div>
+                    <div className="d-flex flex-column align-items-center px-5">
+                        <Image
+                            className="section-2-img p-3"
+                            src={Layer33}
+                            alt="section-2 img"
+                            width={80}
+                            height={80}
+                        />
+                        <strong>Bihar University</strong>
+                    </div>
+                    <div className="d-flex flex-column align-items-center px-5 border-start">
+                        <Image
+                            className="section-2-img p-3"
+                            src={Layer34}
+                            alt="section-2 img"
+                            width={80}
+                            height={80}
+                        />
+                        <strong>BITO Multi Specialty Hospital</strong>
+                    </div>
+                </div>
+                <button className="section-3-btn px-4 py-2 btn btn-primary">
+                    Read more
+                </button>
+            </Container>
 
 
 
