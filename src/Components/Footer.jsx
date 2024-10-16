@@ -53,7 +53,7 @@ const Footer = () => {
 
                 <p className="email">
                   {" "}
-                  <span>Email:</span>office@bitoworld.in
+                  <span style={{marginRight:'10px'}}>Email:</span>office@bitoworld.in
                 </p>
               </div>
             </Col>
@@ -64,7 +64,7 @@ const Footer = () => {
               lg={3}
             >
               <div className="quick-links">
-                <p>Quick Links</p>
+                <p style={{fontSize:'15px',fontWeight:'600'}}>Quick Links</p>
                 <li>Home</li>
                 <li>About</li>
                 <li>Our Work</li>
@@ -104,7 +104,7 @@ const Footer = () => {
                   <Button className="subs-btn">Subscribe</Button>
                 </div>
 
-                <div className="social-footer">
+                <div className="social-footer mt-3">
                   <p>Social Links</p>
 
                   <div className="social-icons d-flex align-items-center">
@@ -152,7 +152,7 @@ const Footer = () => {
           <Container>
             <Col lg={12}>
               <p className="footer-last-line text-center">
-                Copyright © 2023 Bihar International Trade Organization (BITO)
+                Copyright © 2024 Bihar International Trade Organization (BITO)
               </p>
             </Col>
           </Container>

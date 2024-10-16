@@ -37,6 +37,7 @@ const Home = () => {
         className="mySwiper mainSwiper"
         style={{
           "--swiper-navigation-color": "#fff",
+          "marginTop" : "-170px"
         }}
       >
         <SwiperSlide
@@ -120,7 +121,7 @@ const Home = () => {
                       Bihar International Trade Organization
                     </span>{" "}
                     <br />
-                    <span className="main-banner-heading p-0 m-0">BITO2</span>
+                    <span className="main-banner-heading p-0 m-0">BITO</span>
                   </h6>
                 </div>
 
@@ -131,11 +132,12 @@ const Home = () => {
                   style={{
                     borderColor: "white",
                     fontSize: "12px",
-                    borderRadius: "50px",
+                    borderRadius: "50px", 
                   }}
                   className="rounded-full bg-white text-black outline-none border-none px-3 py-1 text-small"
                 >
                   BECOME A MEMBER
+                 
                 </Button>
               </Col>
 
@@ -180,7 +182,7 @@ const Home = () => {
                       Bihar International Trade Organization
                     </span>{" "}
                     <br />
-                    <span className="main-banner-heading p-0 m-0">BITO3</span>
+                    <span className="main-banner-heading p-0 m-0">BITO</span>
                   </h6>
                 </div>
 

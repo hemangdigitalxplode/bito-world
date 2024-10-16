@@ -50,8 +50,15 @@ const MembershipCTA = () => {
             <Container>
 
 
-                <Modal1 show={modalShow} onHide={() => setModalShow(false)} setIndividualModal={setIndividualModal} />
-                    <Individual  show={individualModal} onHide={() => setIndividualModal(false)} />
+                <Modal1
+                    show={modalShow}
+                    onHide={() => setModalShow(false)}
+                    setIndividualModal={setIndividualModal} 
+                    setModalShow={setModalShow}
+                    />
+                <Individual
+                    show={individualModal}
+                    onHide={() => setIndividualModal(false)} />
             </Container>
         </>
     );

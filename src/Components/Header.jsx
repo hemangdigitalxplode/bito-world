@@ -8,7 +8,8 @@ const Header = () => {
   return (
     <>
       <Navbar
-        className="fixed-top p-4 d-flex justify-content-center align-items-center"
+        style={{zIndex:'9'}}
+        className="p-4 d-flex justify-content-center align-items-center"
         expand="lg"
       >
         <Container className="d-lg-flex">
@@ -35,7 +36,7 @@ const Header = () => {
           </Nav>
 
           {/* Logo in the Middle */}
-          <Navbar.Brand className="mx-auto">
+          <Navbar.Brand href="/" className="mx-auto">
             <img
               style={{ maxWidth: "70%" }}
               src={Logo}

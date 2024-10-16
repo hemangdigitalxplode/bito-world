@@ -1,3 +1,4 @@
+ 
 /* eslint-disable react/prop-types */
  
 import { useState } from "react";
@@ -7,6 +8,11 @@ import { Form, Modal } from "react-bootstrap";
 const Modal1 = (props) => {
   const [activeButton, setActiveButton] = useState("foreign"); 
   console.log(props)
+
+  const handlebeforeClose = () => {
+    props.setModalShow(false)
+    props.setIndividualModal(true)
+  }
   return (
     <Modal
       {...props}
@@ -50,11 +56,12 @@ const Modal1 = (props) => {
           <Form.Group>
             <Form.Control type="text" placeholder="Occupation" />
           </Form.Group>
-          <Button
+          <Button 
+          style={{width:'40%',margin:'0 auto'}}
             variant="primary"
             // type="submit"
             className="section-3-btn my-2"
-            onClick={props.setIndividualModal(true)}
+            onClick={handlebeforeClose}
           >
             Next
           </Button>
