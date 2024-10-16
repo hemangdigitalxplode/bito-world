@@ -34,15 +34,17 @@ const Modal1 = (props) => {
   // Send Email using Email JS
   const sendEmail = async () => {
     try {
-      // const result = await emailjs.send(
-      //   serviceId, // Replace with your EmailJS service ID
-      //   templateId, // Replace with your EmailJS template ID
-      //   formData,   // Pass the form data as template parameters
-      //   publicKey   // Replace with your public key (user ID from EmailJS)
-      // );
+      const result = await emailjs.send(
+        serviceId, 
+        templateId,  
+        formData,    
+        publicKey    
+      );
   
       toast.success("Email sent successfully:");
       console.log(formData);
+      console.log(result);
+      
       
       
   
