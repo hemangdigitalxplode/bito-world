@@ -41,7 +41,7 @@ const Modal1 = (props) => {
         publicKey    
       );
   
-      toast.success("Email sent successfully:");
+      // toast.success("Email sent successfully:");
       console.log(formData);
       console.log(result);
       
