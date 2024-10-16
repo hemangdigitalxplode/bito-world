@@ -1,749 +1,751 @@
-
 .right-heading h6 {
-  font-size: 23px;
-  font-weight: 200;
+   font-size: 23px;
+   font-weight: 200;
 }
 
 .main-banner-heading {
-  font-size: 180px;
-  font-weight: 800;
-  line-height: 130px;
+   font-size: 180px;
+   font-weight: 800;
+   line-height: 130px;
 }
 
 .right-heading span {
-  font-weight: 800;
+   font-weight: 800;
 }
 
 .sub-heading {
-  font-size: 23px;
+   font-size: 23px;
 }
 
 .bottom-heading {
-  font-size: 22px;
-  font-weight: 800;
+   font-size: 22px;
+   font-weight: 800;
 }
 
 .right-col {
-  max-width: 25%;
+   max-width: 25%;
 }
 
 .section-2-btn {
-  border-radius: 50px;
-  border: none;
-  background-color: #422a1d;
-  color: white;
-  font-size: 15px;
-  margin-top: 80px;
-  font-weight: 600;
+   border-radius: 50px;
+   border: none;
+   background-color: #422a1d;
+   color: white;
+   font-size: 15px;
+   margin-top: 80px;
+   font-weight: 600;
 }
 
 .section-2-head {
-  color: #422a1d;
-  font-weight: 700;
-  font-size: 40px;
+   color: #422a1d;
+   font-weight: 700;
+   font-size: 40px;
 }
 
 .section-2-img {
-  max-width: 100%;
+   max-width: 100%;
 }
+
 .modalForm input {
-  border-radius: 0;
-  border: none;
-  border-bottom: 1px solid #d9d5d5;
-  color: #bbbbbb;
-  padding: 10px;
+   border-radius: 0;
+   border: none;
+   border-bottom: 1px solid #d9d5d5;
+   color: #bbbbbb;
+   padding: 10px;
 }
+
 .section-2-row {
-  margin-top: 30px;
+   margin-top: 30px;
 }
 
 .left-side-div {
-  max-width: 40%;
+   max-width: 40%;
 }
 
 .left-side-div span {
-  font-size: 22px;
-  margin-top: 20px;
+   font-size: 22px;
+   margin-top: 20px;
 }
 
 .section-para {
-  margin-top: 35px;
+   margin-top: 35px;
 }
 
 .section-3-heading {
-  font-size: 50px;
-  font-weight: 600;
-  color: #b27f4a;
+   font-size: 50px;
+   font-weight: 600;
+   color: #b27f4a;
 }
 
 .chairman {
-  font-size: 22px;
-  color: #523b2f;
-  font-weight: 600;
+   font-size: 22px;
+   color: #523b2f;
+   font-weight: 600;
 }
 
 .section-3-btn {
-  border-radius: 50px;
-  border: none;
-  background-color: #422a1d;
-  color: white;
-  font-size: 15px;
-  font-weight: 600;
+   border-radius: 50px;
+   border: none;
+   background-color: #422a1d;
+   color: white;
+   font-size: 15px;
+   font-weight: 600;
 }
 
 .right-heading h6 {
-  font-size: 23px;
-  font-weight: 200;
+   font-size: 23px;
+   font-weight: 200;
 }
 
 .main-banner-heading {
-  font-size: 180px;
-  font-weight: 800;
-  line-height: 130px;
+   font-size: 180px;
+   font-weight: 800;
+   line-height: 130px;
 }
 
 .right-heading span {
-  font-weight: 800;
+   font-weight: 800;
 }
 
 .sub-heading {
-  font-size: 23px;
+   font-size: 23px;
 }
 
 .bottom-heading {
-  font-size: 22px;
-  font-weight: 800;
+   font-size: 22px;
+   font-weight: 800;
 }
 
 .right-col {
-  max-width: 25%;
+   max-width: 25%;
 }
 
 .chairmain-inner {
-  color: #422a1d;
+   color: #422a1d;
 }
 
 .chairmain-msg {
-  margin-top: 30px;
-  color: #422a1d;
+   margin-top: 30px;
+   color: #422a1d;
 }
 
 .membership h4 {
-  font-size: 40px;
-  color: #ce9c69;
-  font-weight: 700;
+   font-size: 40px;
+   color: #ce9c69;
+   font-weight: 700;
 }
 
 .membership p {
-  color: #fff;
+   color: #fff;
 }
 
 .membership-btn {
-  border-radius: 50px;
-  border: none;
-  background-color: transparent;
-  color: white;
-  font-size: 15px;
-  font-weight: 600;
-  border: 1px solid white;
+   border-radius: 50px;
+   border: none;
+   background-color: transparent;
+   color: white;
+   font-size: 15px;
+   font-weight: 600;
+   border: 1px solid white;
 }
 
 .vision span {
-  font-size: 50px;
-  font-weight: 600;
-  color: #ce9c69;
+   font-size: 50px;
+   font-weight: 600;
+   color: #ce9c69;
 }
 
 .mission span {
-  font-size: 50px;
-  font-weight: 600;
-  color: #ce9c69;
+   font-size: 50px;
+   font-weight: 600;
+   color: #ce9c69;
 }
 
 .mission img {
-  width: 12%;
+   width: 12%;
 }
 
 .vision img {
-  width: 12%;
+   width: 12%;
 }
 
 .vision p {
-  font-size: 14px;
-  margin-top: 25px;
+   font-size: 14px;
+   margin-top: 25px;
 }
 
 .mission p {
-  font-size: 14px;
-  margin-top: 25px;
+   font-size: 14px;
+   margin-top: 25px;
 }
 
 .vision-btn {
-  border-radius: 50px;
-  border: none;
-  background-color: #fff;
-  color: #422a1d;
-  font-size: 15px;
-  font-weight: 600;
-  margin-top: 30px;
+   border-radius: 50px;
+   border: none;
+   background-color: #fff;
+   color: #422a1d;
+   font-size: 15px;
+   font-weight: 600;
+   margin-top: 30px;
 }
 
 .swiper-button-next,
 .swiper-button-prev {
-  border: 1px solid white;
-  border-radius: 50%;
-  padding: 20px;
+   border: 1px solid white;
+   border-radius: 50%;
+   padding: 20px;
 }
 
 .swiper-button-prev:after,
 .swiper-button-next:after {
-  font-size: 10px;
+   font-size: 10px;
 }
 
 .mainSwiper .swiper-button-prev,
 .mainSwiper .swiper-button-next {
-  position: absolute;
-  top: 80%;
-  margin: 20px;
+   position: absolute;
+   top: 80%;
+   margin: 20px;
 }
 
 .mainSwiper .swiper-button-prev {
-  left: 80%;
+   left: 80%;
 }
 
 .mainSwiper .swiper-button-next {
-  right: 10%;
+   right: 10%;
 }
 
 /* Footer CSS */
 .footer-logo {
-  width: 70%;
+   width: 70%;
 }
 
 .address-div span {
-  font-weight: 700;
-  color: #422a1e;
+   font-weight: 700;
+   color: #422a1e;
 }
 
-.address-para {
-}
+.address-para {}
 
 .email span {
-  font-weight: 700;
-  color: #422a1e;
+   font-weight: 700;
+   color: #422a1e;
 }
 
 .quick-links li {
-  list-style: none;
+   list-style: none;
 }
 
 .quick-links-2 li {
-  list-style: none;
+   list-style: none;
 }
 
 .footer-input {
-  background-color: white;
-  border-radius: 50px;
-  padding: 3px 20px;
-  border-color: white;
-  border: none;
+   background-color: white;
+   border-radius: 50px;
+   padding: 3px 20px;
+   border-color: white;
+   border: none;
 }
 
 .subs-btn {
-  border-radius: 50px;
-  border: none;
-  background-color: #b27f4a;
-  color: #fff;
-  font-size: 15px;
-  font-weight: 600;
+   border-radius: 50px;
+   border: none;
+   background-color: #b27f4a;
+   color: #fff;
+   font-size: 15px;
+   font-weight: 600;
 }
 
 .social-links-img {
-  width: 90%;
+   width: 90%;
 }
 
 .newsletter-div {
-  padding-left: 60px;
+   padding-left: 60px;
 }
 
 .quick-links-container {
-  padding-left: 50px;
+   padding-left: 50px;
 }
 
 .quick-links-container-2 {
-  padding-left: 40px;
+   padding-left: 40px;
 }
 
 .partner-btn {
-  padding: 15px 19px;
-  border-radius: 10px;
-  background: transparent;
-  border-color: #b27f4a;
-  color: #b17e4a;
-  font-weight: 700;
-  font-size: 25px;
+   padding: 15px 19px;
+   border-radius: 10px;
+   background: transparent;
+   border-color: #b27f4a;
+   color: #b17e4a;
+   font-weight: 700;
+   font-size: 25px;
 }
 
 .partner-btn:hover {
-  background-color: #422a1d;
-  border-color: #422a1d;
-  color: #cf9b69;
+   background-color: #422a1d;
+   border-color: #422a1d;
+   color: #cf9b69;
 }
 
 .partner-div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 16px;
-  flex-grow: 1;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 16px;
+   flex-grow: 1;
 }
 
 .our-partner-head {
-  font-size: 50px;
-  font-weight: 600;
-  color: #b27f4a;
+   font-size: 50px;
+   font-weight: 600;
+   color: #b27f4a;
 }
 
 /* Membership page */
 
 .main-banner-heading-membership {
-  font-size: 100px;
-  font-weight: 800;
-  line-height: 95px;
+   font-size: 100px;
+   font-weight: 800;
+   line-height: 95px;
 }
 
 .member-btn {
-  border-radius: 35px;
-  background-color: transparent;
-  color: #9c7041;
-  padding: 0 60px;
-  border-color: #9c7041;
-  font-size: 30px;
-  font-weight: 700;
+   border-radius: 35px;
+   background-color: transparent;
+   color: #9c7041;
+   padding: 0 60px;
+   border-color: #9c7041;
+   font-size: 30px;
+   font-weight: 700;
 }
 
 .member-btn:hover {
-  background-color: #9c7041;
-  border-color: #9c7041;
+   background-color: #9c7041;
+   border-color: #9c7041;
 }
 
 .membership-heading {
-  font-size: 100px;
-  font-weight: 700;
-  color: #b27f4a;
+   font-size: 100px;
+   font-weight: 700;
+   color: #b27f4a;
 }
 
 .membership-cta span {
-  font-weight: 700;
-  font-size: 40px;
+   font-weight: 700;
+   font-size: 40px;
 }
 
 .membership-right-cta-div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 .enroll-now-btn {
-  padding: 20px 70px;
-  border-radius: 50px;
-  font-size: 30px;
-  background: transparent;
-  border-color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
+   padding: 20px 70px;
+   border-radius: 50px;
+   font-size: 30px;
+   background: transparent;
+   border-color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
 }
 
 .enroll-now-btn:hover {
-  background-color: transparent;
-  border-color: white;
+   background-color: transparent;
+   border-color: white;
 }
 
- .right-heading h6 {
-    font-size: 23px;
-    font-weight: 200;
- }
-
- .main-banner-heading {
-    font-size: 180px;
-    font-weight: 800;
-    line-height: 130px;
- }
-
- .right-heading span {
-    font-weight: 800;
- }
-
- .sub-heading {
-    font-size: 23px;
- }
-
- .bottom-heading {
-    font-size: 22px;
-    font-weight: 800;
- }
-
- .right-col {
-    max-width: 25%;
- }
-
- .section-2-btn {
-    border-radius: 50px;
-    border: none;
-    background-color: #422a1d;
-    color: white;
-    font-size: 15px;
-    margin-top: 80px;
-    font-weight: 600;
- }
-
- .section-2-head {
-    color: #422a1d;
-    font-weight: 700;
-    font-size: 40px;
- }
-
- .section-2-img {
-    max-width: 100%;
-
- }
-
- .section-2-row {
-    margin-top: 30px;
- }
-
- .left-side-div {
-    max-width: 40%;
- }
-
- .left-side-div span {
-    font-size: 22px;
-    margin-top: 20px;
- }
-
- .section-para {
-    margin-top: 35px;
- }
-
- .section-3-heading {
-    font-size: 50px;
-    font-weight: 600;
-    color: #b27f4a;
- }
-
- .chairman {
-    font-size: 22px;
-    color: #523b2f;
-    font-weight: 600;
- }
-
- .section-3-btn {
-    border-radius: 50px;
-    border: none;
-    background-color: #422a1d;
-    color: white;
-    font-size: 15px;
-    font-weight: 600;
- }
-
- .right-heading h6 {
-    font-size: 23px;
-    font-weight: 200;
- }
-
- .main-banner-heading {
-    font-size: 180px;
-    font-weight: 800;
-    line-height: 130px;
- }
-
- .right-heading span {
-    font-weight: 800;
- }
-
- .sub-heading {
-    font-size: 23px;
- }
-
- .bottom-heading {
-    font-size: 22px;
-    font-weight: 800;
- }
-
- .right-col {
-    max-width: 25%;
- }
-
- .chairmain-inner {
-    color: #422a1d;
- }
-
- .chairmain-msg {
-    margin-top: 30px;
-    color: #422a1d;
- }
-
- .membership h4 {
-    font-size: 40px;
-    color: #ce9c69;
-    font-weight: 700;
-
- }
-
- .membership p {
-    color: #fff;
- }
-
- .membership-btn {
-    border-radius: 50px;
-    border: none;
-    background-color: transparent;
-    color: white;
-    font-size: 15px;
-    font-weight: 600;
-    border: 1px solid white;
- }
-
- .vision span {
-    font-size: 50px;
-    font-weight: 600;
-    color: #ce9c69;
- }
-
- .mission span {
-    font-size: 50px;
-    font-weight: 600;
-    color: #ce9c69;
- }
-
- .mission img {
-    width: 12%;
- }
-
- .vision img {
-    width: 12%;
- }
-
- .vision p {
-    font-size: 14px;
-    margin-top: 25px;
- }
-
- .mission p {
-    font-size: 14px;
-    margin-top: 25px;
- }
-
- .vision-btn {
-    border-radius: 50px;
-    border: none;
-    background-color: #fff;
-    color: #422a1d;
-    font-size: 15px;
-    font-weight: 600;
-    margin-top: 30px;
- }
-
- .swiper-button-next,
- .swiper-button-prev {
-    border: 1px solid white;
-    border-radius: 50%;
-    padding: 20px;
- }
-
- .swiper-button-prev:after,
- .swiper-button-next:after {
-    font-size: 10px;
- }
-
- .mainSwiper .swiper-button-prev,
- .mainSwiper .swiper-button-next {
-    position: absolute;
-    top: 80%;
-    margin: 20px;
- }
-
- .mainSwiper .swiper-button-prev {
-    left: 80%;
- }
-
- .mainSwiper .swiper-button-next {
-    right: 10%;
- }
-
-
- /* Footer CSS */
- .footer-logo {
-    width: 70%;
- }
-
- .address-div span {
-    font-weight: 700;
-    color: #422a1e;
- }
-
- .address-para {}
-
- .email span {
-    font-weight: 700;
-    color: #422a1e;
- }
-
- .quick-links li {
-    list-style: none;
- }
-
- .quick-links-2 li {
-    list-style: none;
- }
-
- .footer-input {
-    background-color: white;
-    border-radius: 50px;
-    padding: 3px 20px;
-    border-color: white;
-    border: none;
- }
-
- .subs-btn {
-    border-radius: 50px;
-    border: none;
-    background-color: #b27f4a;
-    color: #fff;
-    font-size: 15px;
-    font-weight: 600;
-
- }
-
- .social-links-img {
-    width: 90%;
- }
-
- .newsletter-div {
-    padding-left: 60px;
- }
-
- .quick-links-container {
-    padding-left: 50px;
- }
-
- .quick-links-container-2 {
-    padding-left: 40px;
- }
-
-
-
-
-
-
-
- .partner-btn {
-    padding: 15px 19px;
-    border-radius: 10px;
-    background: transparent;
-    border-color: #b27f4a;
-    color: #b17e4a;
-    font-weight: 700;
-    font-size: 25px;
- }
-
- .partner-btn:hover {
-    background-color: #422a1d;
-    border-color: #422a1d;
-    color: #cf9b69;
- }
-
- .partner-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 16px;
-    flex-grow: 1;
- }
-
- .our-partner-head {
-    font-size: 50px;
-    font-weight: 600;
-    color: #b27f4a;
- }
-
-
-
-
- /* Membership page */
-
- .main-banner-heading-membership {
-    font-size: 100px;
-    font-weight: 800;
-    line-height: 95px;
- }
-
- .member-btn {
-    border-radius: 35px;
-    background-color: transparent;
-    color: #9c7041;
-    padding: 0 60px;
-    border-color: #9c7041;
-    font-size: 30px;
-    font-weight: 700;
- }
-
- .member-btn:hover {
-    background-color: #9c7041;
-    border-color: #9c7041;
- }
-
- .membership-heading {
-    font-size: 100px;
-    font-weight: 700;
-    color: #b27f4a;
- }
-
- .membership-cta span {
-    font-weight: 700;
-    font-size: 40px;
- }
-
- .membership-right-cta-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
- }
-
- .enroll-now-btn {
-    padding: 20px 70px;
-    border-radius: 50px;
-    font-size: 30px;
-    background: transparent;
-    border-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
- }
-
- .enroll-now-btn:hover {
-    background-color: transparent;
-    border-color: white;
- }
-
-
-
- /* Vertical lines */
- .vertical-line {
+.right-heading h6 {
+   font-size: 23px;
+   font-weight: 200;
+}
+
+.main-banner-heading {
+   font-size: 180px;
+   font-weight: 800;
+   line-height: 130px;
+}
+
+.right-heading span {
+   font-weight: 800;
+}
+
+.sub-heading {
+   font-size: 23px;
+}
+
+.bottom-heading {
+   font-size: 22px;
+   font-weight: 800;
+}
+
+.right-col {
+   max-width: 25%;
+}
+
+.section-2-btn {
+   border-radius: 50px;
+   border: none;
+   background-color: #422a1d;
+   color: white;
+   font-size: 15px;
+   margin-top: 80px;
+   font-weight: 600;
+}
+
+.section-2-head {
+   color: #422a1d;
+   font-weight: 700;
+   font-size: 40px;
+}
+
+.section-2-img {
+   max-width: 100%;
+
+}
+
+.section-2-row {
+   margin-top: 30px;
+}
+
+.left-side-div {
+   max-width: 40%;
+}
+
+.left-side-div span {
+   font-size: 22px;
+   margin-top: 20px;
+}
+
+.section-para {
+   margin-top: 35px;
+}
+
+.section-3-heading {
+   font-size: 50px;
+   font-weight: 600;
+   color: #b27f4a;
+}
+
+.chairman {
+   font-size: 22px;
+   color: #523b2f;
+   font-weight: 600;
+}
+
+.section-3-btn {
+   border-radius: 50px;
+   border: none;
+   background-color: #422a1d;
+   color: white;
+   font-size: 15px;
+   font-weight: 600;
+}
+
+.right-heading h6 {
+   font-size: 23px;
+   font-weight: 200;
+}
+
+.main-banner-heading {
+   font-size: 180px;
+   font-weight: 800;
+   line-height: 130px;
+}
+
+.right-heading span {
+   font-weight: 800;
+}
+
+.sub-heading {
+   font-size: 23px;
+}
+
+.bottom-heading {
+   font-size: 22px;
+   font-weight: 800;
+}
+
+.right-col {
+   max-width: 25%;
+}
+
+.chairmain-inner {
+   color: #422a1d;
+}
+
+.chairmain-msg {
+   margin-top: 30px;
+   color: #422a1d;
+}
+
+.membership h4 {
+   font-size: 40px;
+   color: #ce9c69;
+   font-weight: 700;
+
+}
+
+.membership p {
+   color: #fff;
+}
+
+.membership-btn {
+   border-radius: 50px;
+   border: none;
+   background-color: transparent;
+   color: white;
+   font-size: 15px;
+   font-weight: 600;
+   border: 1px solid white;
+}
+
+.vision span {
+   font-size: 50px;
+   font-weight: 600;
+   color: #ce9c69;
+}
+
+.mission span {
+   font-size: 50px;
+   font-weight: 600;
+   color: #ce9c69;
+}
+
+.mission img {
+   width: 12%;
+}
+
+.vision img {
+   width: 12%;
+}
+
+.vision p {
+   font-size: 14px;
+   margin-top: 25px;
+}
+
+.mission p {
+   font-size: 14px;
+   margin-top: 25px;
+}
+
+.vision-btn {
+   border-radius: 50px;
+   border: none;
+   background-color: #fff;
+   color: #422a1d;
+   font-size: 15px;
+   font-weight: 600;
+   margin-top: 30px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+   border: 1px solid white;
+   border-radius: 50%;
+   padding: 20px;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+   font-size: 10px;
+}
+
+.mainSwiper .swiper-button-prev,
+.mainSwiper .swiper-button-next {
    position: absolute;
-   height: 100vh; /* Full height */
-   width: 10px;
-   background-color: #8B5E3C; /* Brown color */
-   margin: 0 auto;
- }
+   top: 80%;
+   margin: 20px;
+}
 
- /* Circular elements on the line */
- .circle {
+.mainSwiper .swiper-button-prev {
+   left: 80%;
+}
+
+.mainSwiper .swiper-button-next {
+   right: 10%;
+}
+
+
+/* Footer CSS */
+.footer-logo {
+   width: 70%;
+}
+
+.address-div span {
+   font-weight: 700;
+   color: #422a1e;
+}
+
+.address-para {}
+
+.email span {
+   font-weight: 700;
+   color: #422a1e;
+}
+
+.quick-links li {
+   list-style: none;
+}
+
+.quick-links-2 li {
+   list-style: none;
+}
+
+.footer-input {
+   background-color: white;
+   border-radius: 50px;
+   padding: 3px 20px;
+   border-color: white;
+   border: none;
+}
+
+.subs-btn {
+   border-radius: 50px;
+   border: none;
+   background-color: #b27f4a;
+   color: #fff;
+   font-size: 15px;
+   font-weight: 600;
+
+}
+
+.social-links-img {
+   width: 90%;
+}
+
+.newsletter-div {
+   padding-left: 60px;
+}
+
+.quick-links-container {
+   padding-left: 50px;
+}
+
+.quick-links-container-2 {
+   padding-left: 40px;
+}
+
+
+
+
+
+
+
+.partner-btn {
+   padding: 15px 19px;
+   border-radius: 10px;
+   background: transparent;
+   border-color: #b27f4a;
+   color: #b17e4a;
+   font-weight: 700;
+   font-size: 25px;
+}
+
+.partner-btn:hover {
+   background-color: #422a1d;
+   border-color: #422a1d;
+   color: #cf9b69;
+}
+
+.partner-div {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 16px;
+   flex-grow: 1;
+}
+
+.our-partner-head {
+   font-size: 50px;
+   font-weight: 600;
+   color: #b27f4a;
+}
+
+
+
+
+/* Membership page */
+
+.main-banner-heading-membership {
+   font-size: 100px;
+   font-weight: 800;
+   line-height: 95px;
+}
+
+.member-btn {
+   border-radius: 35px;
+   background-color: transparent;
+   color: #9c7041;
+   padding: 0 60px;
+   border-color: #9c7041;
+   font-size: 30px;
+   font-weight: 700;
+}
+
+.member-btn:hover {
+   background-color: #9c7041;
+   border-color: #9c7041;
+}
+
+.membership-heading {
+   font-size: 100px;
+   font-weight: 700;
+   color: #b27f4a;
+}
+
+.membership-cta span {
+   font-weight: 700;
+   font-size: 40px;
+}
+
+.membership-right-cta-div {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.enroll-now-btn {
+   padding: 20px 70px;
+   border-radius: 50px;
+   font-size: 30px;
+   background: transparent;
+   border-color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+}
+
+.enroll-now-btn:hover {
+   background-color: transparent;
+   border-color: white;
+}
+
+
+
+/* Vertical lines */
+.vertical-line {
+   position: absolute;
+   height: 100vh;
+   /* Full height */
+   width: 10px;
+   background-color: #8B5E3C;
+   /* Brown color */
+   margin: 0 auto;
+}
+
+/* Circular elements on the line */
+.circle {
    position: absolute;
    width: 20px;
    height: 20px;
@@ -751,44 +753,102 @@
    border-radius: 50%;
    left: 50%;
    transform: translateX(-50%);
- }
+}
 
- /* Positioning circles along the line */
- .circle-top {
+/* Positioning circles along the line */
+.circle-top {
    top: 10%;
- }
+}
 
- .circle-middle {
+.circle-middle {
    top: 50%;
    transform: translate(-50%, -50%);
- }
+}
 
- .circle-bottom {
+.circle-bottom {
    top: 90%;
- }
+}
 
 
- .vl {
+.vl {
    border-left: 10px solid #9c7041;
    height: 100%;
    /* position: absolute; */
    /* left: 50%; */
    margin-left: -3px;
    /* top: 0; */
- }
- .middle-line::before {
+}
+
+.middle-line::before {
    content: "";
    position: relative;
    width: 40px;
    height: 40px;
    background-color: #9c7041;
    border-radius: 50%;
-    left: 22px;
-   top: -52%;  
- }
- .middle-line{
+   left: 22px;
+   top: -52%;
+}
+
+.middle-line {
    display: flex;
    justify-content: center;
    align-items: center;
- }
+}
 
+.custom-modal-style {
+   max-width: 420px;
+   /* Set your desired width */
+   margin: 0 auto;
+   /* Center horizontally */
+}
+
+.modal-dialog {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+   /* Full height to vertically center */
+}
+
+
+.form-top-selector {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 10px 0;
+   gap: 30px;
+}
+
+.form-top-selector button {
+   font-size: 24px;
+   background: transparent;
+   border: none;
+   outline: none;
+    
+}
+.selector-btn {
+   background: none;
+   border: none;
+   font-size: 18px;
+   cursor: pointer;
+   color: #c7c7c7;
+   font-weight: 700;
+   padding: 5px 10px;
+   transition: all 0.3s ease;
+   position: relative;
+ }
+ 
+ .selector-btn.active {
+   color: #422a1d; /* Change text color to brown */
+ }
+ 
+ .selector-btn.active::after {
+   content: "";
+   position: absolute;
+   left: 0;
+   right: 0;
+   bottom: -2px; /* Adjust underline position */
+   height: 2px;
+   background-color: #422a1d;
+ }
