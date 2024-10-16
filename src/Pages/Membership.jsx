@@ -35,7 +35,7 @@ const Membership = () => {
                         </h6>
 
 
-                        <div>
+                        {/* <div>
                             <Button style={{
                                 borderColor: "white",
                                 fontSize: "18px",
@@ -49,7 +49,7 @@ const Membership = () => {
                                 className="rounded-full bg-white text-black outline-none border-none px-4 py-2 text-small">Become a Member
                                 <Image style={{ marginTop: '4px' }} src={RightArrow} alt='right-arrow' />
                             </Button>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
