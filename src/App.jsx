@@ -9,6 +9,7 @@ import Membership from './Pages/Membership'
 import Individual from './Components/modals/Individual'
 import Corporate from './Components/modals/Corporate'
 
+
 const App = () => {
   return (
     <>
