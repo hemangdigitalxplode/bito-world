@@ -19,6 +19,7 @@ const Membership = () => {
                     "background-repeat": "no-repeat",
                     "background-position": "center",
                     padding: "350px 0",
+                    marginTop:'-170px'
                 }}
                 className="h-100">
 

@@ -11,7 +11,8 @@ const MembershipCTA = () => {
         <>
             <div
                 style={{
-                    backgroundColor: "#422a1d",
+                    backgroundColor: "#422a1d", 
+                    marginTop:'50px'
                 }}
             >
                 <Container>
