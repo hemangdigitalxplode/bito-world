@@ -1,3 +1,4 @@
+
 .right-heading h6 {
   font-size: 23px;
   font-weight: 200;
@@ -360,3 +361,434 @@
   background-color: transparent;
   border-color: white;
 }
+
+ .right-heading h6 {
+    font-size: 23px;
+    font-weight: 200;
+ }
+
+ .main-banner-heading {
+    font-size: 180px;
+    font-weight: 800;
+    line-height: 130px;
+ }
+
+ .right-heading span {
+    font-weight: 800;
+ }
+
+ .sub-heading {
+    font-size: 23px;
+ }
+
+ .bottom-heading {
+    font-size: 22px;
+    font-weight: 800;
+ }
+
+ .right-col {
+    max-width: 25%;
+ }
+
+ .section-2-btn {
+    border-radius: 50px;
+    border: none;
+    background-color: #422a1d;
+    color: white;
+    font-size: 15px;
+    margin-top: 80px;
+    font-weight: 600;
+ }
+
+ .section-2-head {
+    color: #422a1d;
+    font-weight: 700;
+    font-size: 40px;
+ }
+
+ .section-2-img {
+    max-width: 100%;
+
+ }
+
+ .section-2-row {
+    margin-top: 30px;
+ }
+
+ .left-side-div {
+    max-width: 40%;
+ }
+
+ .left-side-div span {
+    font-size: 22px;
+    margin-top: 20px;
+ }
+
+ .section-para {
+    margin-top: 35px;
+ }
+
+ .section-3-heading {
+    font-size: 50px;
+    font-weight: 600;
+    color: #b27f4a;
+ }
+
+ .chairman {
+    font-size: 22px;
+    color: #523b2f;
+    font-weight: 600;
+ }
+
+ .section-3-btn {
+    border-radius: 50px;
+    border: none;
+    background-color: #422a1d;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+ }
+
+ .right-heading h6 {
+    font-size: 23px;
+    font-weight: 200;
+ }
+
+ .main-banner-heading {
+    font-size: 180px;
+    font-weight: 800;
+    line-height: 130px;
+ }
+
+ .right-heading span {
+    font-weight: 800;
+ }
+
+ .sub-heading {
+    font-size: 23px;
+ }
+
+ .bottom-heading {
+    font-size: 22px;
+    font-weight: 800;
+ }
+
+ .right-col {
+    max-width: 25%;
+ }
+
+ .chairmain-inner {
+    color: #422a1d;
+ }
+
+ .chairmain-msg {
+    margin-top: 30px;
+    color: #422a1d;
+ }
+
+ .membership h4 {
+    font-size: 40px;
+    color: #ce9c69;
+    font-weight: 700;
+
+ }
+
+ .membership p {
+    color: #fff;
+ }
+
+ .membership-btn {
+    border-radius: 50px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border: 1px solid white;
+ }
+
+ .vision span {
+    font-size: 50px;
+    font-weight: 600;
+    color: #ce9c69;
+ }
+
+ .mission span {
+    font-size: 50px;
+    font-weight: 600;
+    color: #ce9c69;
+ }
+
+ .mission img {
+    width: 12%;
+ }
+
+ .vision img {
+    width: 12%;
+ }
+
+ .vision p {
+    font-size: 14px;
+    margin-top: 25px;
+ }
+
+ .mission p {
+    font-size: 14px;
+    margin-top: 25px;
+ }
+
+ .vision-btn {
+    border-radius: 50px;
+    border: none;
+    background-color: #fff;
+    color: #422a1d;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 30px;
+ }
+
+ .swiper-button-next,
+ .swiper-button-prev {
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 20px;
+ }
+
+ .swiper-button-prev:after,
+ .swiper-button-next:after {
+    font-size: 10px;
+ }
+
+ .mainSwiper .swiper-button-prev,
+ .mainSwiper .swiper-button-next {
+    position: absolute;
+    top: 80%;
+    margin: 20px;
+ }
+
+ .mainSwiper .swiper-button-prev {
+    left: 80%;
+ }
+
+ .mainSwiper .swiper-button-next {
+    right: 10%;
+ }
+
+
+ /* Footer CSS */
+ .footer-logo {
+    width: 70%;
+ }
+
+ .address-div span {
+    font-weight: 700;
+    color: #422a1e;
+ }
+
+ .address-para {}
+
+ .email span {
+    font-weight: 700;
+    color: #422a1e;
+ }
+
+ .quick-links li {
+    list-style: none;
+ }
+
+ .quick-links-2 li {
+    list-style: none;
+ }
+
+ .footer-input {
+    background-color: white;
+    border-radius: 50px;
+    padding: 3px 20px;
+    border-color: white;
+    border: none;
+ }
+
+ .subs-btn {
+    border-radius: 50px;
+    border: none;
+    background-color: #b27f4a;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+
+ }
+
+ .social-links-img {
+    width: 90%;
+ }
+
+ .newsletter-div {
+    padding-left: 60px;
+ }
+
+ .quick-links-container {
+    padding-left: 50px;
+ }
+
+ .quick-links-container-2 {
+    padding-left: 40px;
+ }
+
+
+
+
+
+
+
+ .partner-btn {
+    padding: 15px 19px;
+    border-radius: 10px;
+    background: transparent;
+    border-color: #b27f4a;
+    color: #b17e4a;
+    font-weight: 700;
+    font-size: 25px;
+ }
+
+ .partner-btn:hover {
+    background-color: #422a1d;
+    border-color: #422a1d;
+    color: #cf9b69;
+ }
+
+ .partner-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    flex-grow: 1;
+ }
+
+ .our-partner-head {
+    font-size: 50px;
+    font-weight: 600;
+    color: #b27f4a;
+ }
+
+
+
+
+ /* Membership page */
+
+ .main-banner-heading-membership {
+    font-size: 100px;
+    font-weight: 800;
+    line-height: 95px;
+ }
+
+ .member-btn {
+    border-radius: 35px;
+    background-color: transparent;
+    color: #9c7041;
+    padding: 0 60px;
+    border-color: #9c7041;
+    font-size: 30px;
+    font-weight: 700;
+ }
+
+ .member-btn:hover {
+    background-color: #9c7041;
+    border-color: #9c7041;
+ }
+
+ .membership-heading {
+    font-size: 100px;
+    font-weight: 700;
+    color: #b27f4a;
+ }
+
+ .membership-cta span {
+    font-weight: 700;
+    font-size: 40px;
+ }
+
+ .membership-right-cta-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .enroll-now-btn {
+    padding: 20px 70px;
+    border-radius: 50px;
+    font-size: 30px;
+    background: transparent;
+    border-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+ }
+
+ .enroll-now-btn:hover {
+    background-color: transparent;
+    border-color: white;
+ }
+
+
+
+ /* Vertical lines */
+ .vertical-line {
+   position: absolute;
+   height: 100vh; /* Full height */
+   width: 10px;
+   background-color: #8B5E3C; /* Brown color */
+   margin: 0 auto;
+ }
+
+ /* Circular elements on the line */
+ .circle {
+   position: absolute;
+   width: 20px;
+   height: 20px;
+   background-color: #8B5E3C;
+   border-radius: 50%;
+   left: 50%;
+   transform: translateX(-50%);
+ }
+
+ /* Positioning circles along the line */
+ .circle-top {
+   top: 10%;
+ }
+
+ .circle-middle {
+   top: 50%;
+   transform: translate(-50%, -50%);
+ }
+
+ .circle-bottom {
+   top: 90%;
+ }
+
+
+ .vl {
+   border-left: 10px solid #9c7041;
+   height: 100%;
+   /* position: absolute; */
+   /* left: 50%; */
+   margin-left: -3px;
+   /* top: 0; */
+ }
+ .middle-line::before {
+   content: "";
+   position: relative;
+   width: 40px;
+   height: 40px;
+   background-color: #9c7041;
+   border-radius: 50%;
+    left: 22px;
+   top: -52%;  
+ }
+ .middle-line{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
