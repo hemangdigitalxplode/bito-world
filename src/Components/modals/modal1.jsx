@@ -8,6 +8,8 @@ import { Form, Modal } from "react-bootstrap";
 const Modal1 = (props) => {
   const [activeButton, setActiveButton] = useState("foreign"); 
   console.log(props)
+  console.log("Hello world");
+  
 
   const handlebeforeClose = () => {
     props.setModalShow(false)
