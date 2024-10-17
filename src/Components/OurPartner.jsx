@@ -14,7 +14,7 @@ const OurPartner = () => {
                     <h4 className='text-center my-5 our-partner-head'>Our Partners</h4>
                 </Col>
 
-                <div className='w-100 mx-auto partner-div'>
+                <div className='mx-auto partner-div'>
                     {
                         Partners.map((item,index) => (
                             <Button className='partner-btn' key={index}>{item}</Button>

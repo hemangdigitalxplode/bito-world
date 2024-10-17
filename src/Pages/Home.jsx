@@ -46,15 +46,14 @@ const Home = () => {
             "background-image": `url(${BannerHome})`,
             // "background-size": "contain",
             "background-repeat": "no-repeat",
-            "background-position": "center",
-            padding: "250px 0",
+            "background-position": "center", 
           }}
-          className="h-100"
+          className="h-100 home-slider"
         >
           <div className="container text-white">
             <Row>
               <Col lg={4}>
-                <div>
+                <div className="first-head-box">
                   <h6 style={{ fontSize: "20px" }}>
                     Welcome to <br />
                     <span className="sub-heading">
@@ -111,14 +110,14 @@ const Home = () => {
             // "background-size": "contain",
             "background-repeat": "no-repeat",
             "background-position": "center",
-            padding: "250px 0",
+            
           }}
-          className="h-100"
+          className="h-100 home-slider"
         >
           <div className="container text-white">
             <Row>
               <Col lg={4}>
-                <div>
+                <div className="first-head-box">
                   <h6 style={{ fontSize: "20px" }}>
                     Welcome to <br />
                     <span className="sub-heading">
@@ -175,14 +174,14 @@ const Home = () => {
             // "background-size": "contain",
             "background-repeat": "no-repeat",
             "background-position": "center",
-            padding: "250px 0",
+           
           }}
-          className="h-100"
+          className="h-100 home-slider"
         >
           <div className="container text-white">
             <Row>
               <Col lg={4}>
-                <div>
+                <div className="first-head-box">
                   <h6 style={{ fontSize: "20px" }}>
                     Welcome to <br />
                     <span className="sub-heading">
@@ -344,7 +343,7 @@ const Home = () => {
             </Col>
 
             <Col lg={6}>
-              <Image className="mw-100" src={PravinKumar} alt="pravin-kumar" />
+              <Image className="mw-100 img-2-president" src={PravinKumar} alt="pravin-kumar" />
               <h2 className="section-2-head">Pravin Kumar</h2>
               <p className="chairman">President</p>
               <span className="chairmain-inner">
@@ -423,11 +422,11 @@ const Home = () => {
         </Row>
       </Container>
 
-      {/* Sixth section */}
+      {/* Sixth section Mission & Vision Section */}
       <div style={{ backgroundColor: "#422a1e" }}>
         <Container>
-          <Row style={{ padding: "35px 0" }}>
-            <Col style={{ width: "45%" }} lg={6}>
+          <Row className="mission-vision-row" style={{ padding: "35px 0" }}>
+            <Col className="mission-vision-row-col-1"  lg={6}>
               <div className="vision">
                 <div
                   style={{ gap: "20px" }}
@@ -455,7 +454,7 @@ const Home = () => {
               </div>
             </Col>
 
-            <Col className="mx-auto" style={{ width: "45%" }} lg={6}>
+            <Col className="mx-auto mission-vision-row-col-2"  lg={6}>
               <div className="mission">
                 <div
                   style={{ gap: "20px" }}
@@ -485,8 +484,8 @@ const Home = () => {
 
       {/* Seventh section */}
 
-      <Container className="my-5 d-flex">
-        <div className="w-50">
+      <Container className="my-5 d-flex objective-container">
+        <div className="objective-container-div">
           <h2
             style={{
               fontSize: "25px",
@@ -539,7 +538,7 @@ const Home = () => {
           </button>
         </div>
         <div className="w-50">
-          <Image src={ObjectiveGoals} alt="" className="w-100" />
+          <Image src={ObjectiveGoals} alt="" className="objective-img" />
         </div>
       </Container>
 
@@ -555,7 +554,7 @@ const Home = () => {
             BITO Arms are specialized divisions within the Bihar International
             Trade Organization that focus on different aspects of its mission
           </p>
-          <div className="d-flex justify-content-center gap-5 my-5">
+          <div className="d-flex justify-content-center gap-5 my-5 flex-wrap">
             <div className="d-flex flex-column align-items-center px-5">
               <Image
                 className="section-2-img p-3"
@@ -615,7 +614,7 @@ const Home = () => {
           designed to address the needs of the Bihari community across various
           domains
         </p>
-        <div className="d-flex justify-content-center gap-5 my-5">
+        <div className="d-flex justify-content-center gap-5 my-5 custom-wrap">
           <div className="d-flex flex-column align-items-center px-5">
             <Image
               className="section-2-img p-3"

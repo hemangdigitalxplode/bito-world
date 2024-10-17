@@ -15,7 +15,7 @@ const Footer = () => {
       <div style={{ backgroundColor: "#f5e0cb" }}>
         <Container style={{ padding: "40px 0" }}>
           <Row>
-            <Col lg={2}>
+            <Col lg={2} className="logo-div">
               <Image
                 className="footer-logo"
                 src={FooterLogo}
@@ -23,8 +23,8 @@ const Footer = () => {
               />
             </Col>
 
-            <Col style={{ width: "80%" }} lg={10}>
-              <p style={{ paddingTop: "40px" }}>
+            <Col className="footer-info" lg={10}>
+              <p>
                 Welcome to BITO, your partner in discovering the vibrant history
                 and promising future of Bihar. Our organization is dedicated to
                 preserving Bihar&apos;s cultural heritage while simultaneously
@@ -42,8 +42,8 @@ const Footer = () => {
             </Col>
           </Row>
           {/* Second section in Footer */}
-          <Row style={{ padding: "50px 0" }}>
-            <Col style={{ width: "31%" }} lg={3}>
+          <Row className="address-email-div-footer">
+            <Col className="address-email-cont-col" lg={3}>
               <div className="address-div">
                 <span>Address:</span>
                 <p className="address-para">
@@ -59,7 +59,6 @@ const Footer = () => {
             </Col>
 
             <Col
-              style={{ width: "12%" }}
               className="quick-links-container"
               lg={3}
             >
@@ -74,8 +73,7 @@ const Footer = () => {
             </Col>
 
             <Col
-              className="quick-links-container-2"
-              style={{ width: "13%" }}
+              className="quick-links-container-2" 
               lg={3}
             >
               <div className="quick-links-2">
@@ -89,7 +87,7 @@ const Footer = () => {
               </div>
             </Col>
 
-            <Col className="mx-auto" style={{ width: "44%" }} lg={3}>
+            <Col  className="mx-auto newsletter-col"  lg={3}>
               <div className="newsletter-div">
                 <p>Newsletter</p>
                 <div
