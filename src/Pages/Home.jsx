@@ -322,7 +322,7 @@ const Home = () => {
           {/* Prvin kumar */}
           <Row className="mt-5">
             <Col lg={6}>
-              <div className="president-card">
+              <div className="president-card-2">
                 <div className="upper-title">
                   <Image className="img-2-president" src={PravinKumar} alt="pravin-kumar" />
                   <div className="name-div">
@@ -357,7 +357,8 @@ const Home = () => {
                   <Image className=" img-2-president" src={Amresh} alt="amresh-ji" />
                   <div className="name-div">
                     <h2 className="section-2-head">Amresh</h2>
-                    <p className="chairman">President</p>
+                    <p className="chairman">Secretary-General
+                    </p>
 
                   </div>
                 </div>
@@ -368,12 +369,7 @@ const Home = () => {
                   Dear All,
                   <br />
                   <br />
-                  It is with great pride and responsibility that I address you as
-                  the President of the Bihar International Trade Organisation
-                  (BITO). Under leadership of Sh. Chirag Paswan , as we embark on
-                  a transformative journey, BITO is set to drive significant
-                  change in the social, economic, and cultural landscapes of
-                  Bihar.....
+                  As Secretary General of BITO, I am proud to lead an organization that drives innovation and collaboration in our industry. Our commitment to advancing technology and fostering global partnerships has never been stronger. Together, we will continue to overcome challenges and create opportunities for sustainable growth and development. 
                 </p>
                 <div>
                   <Button className="section-3-btn px-4 py-2">Read More</Button>

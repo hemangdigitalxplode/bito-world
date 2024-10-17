@@ -901,7 +901,12 @@
 
 .president-card {
    border: 8px solid #b27f4a;
-   padding: 30px;
+   padding: 40px 20px;
+   border-radius: 20px;
+}
+.president-card-2 {
+   border: 8px solid #b27f4a;
+   padding: 52px 20px;
    border-radius: 20px;
 }
 
