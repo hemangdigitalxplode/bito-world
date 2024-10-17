@@ -325,7 +325,7 @@ const Home = () => {
               <div className="president-card">
                 <div className="upper-title">
                   <Image className="img-2-president" src={PravinKumar} alt="pravin-kumar" />
-                  <div className="name-div"> 
+                  <div className="name-div">
                     <h2 className="section-2-head">Pravin Kumar</h2>
                     <p className="chairman">President</p>
 
@@ -351,11 +351,11 @@ const Home = () => {
               </div>
             </Col>
 
-            <Col lg={6}>
-            <div className="president-card">
+            <Col className="amreesh-div" lg={6}>
+              <div className="president-card">
                 <div className="upper-title">
                   <Image className=" img-2-president" src={Amresh} alt="amresh-ji" />
-                  <div className="name-div"> 
+                  <div className="name-div">
                     <h2 className="section-2-head">Amresh</h2>
                     <p className="chairman">President</p>
 
@@ -422,9 +422,11 @@ const Home = () => {
                 organization.
               </p>
               <div>
-                <Button className="membership-btn px-4 mt-4">
-                  Become A Member
-                </Button>
+                <Link to={'/membership'}>
+                  <Button className="membership-btn px-4 mt-4">
+                    Become A Member
+                  </Button> 
+                </Link>
               </div>
             </div>
           </Col>

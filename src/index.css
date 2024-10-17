@@ -120,7 +120,7 @@
    max-width: 25%;
 }
 
- 
+
 
 .chairmain-msg {
    margin-top: 10px;
@@ -481,7 +481,7 @@
 .chairmain-inner {
    color: #422a1d;
    margin-top: 13px;
-  font-weight: 600;
+   font-weight: 600;
 }
 
 .chairmain-msg {
@@ -898,21 +898,34 @@
 .newsletter-col {
    width: 44%;
 }
+
 .president-card {
    border: 8px solid #b27f4a;
    padding: 30px;
    border-radius: 20px;
- }
- .img-2-president{
+}
+
+.img-2-president {
    width: 30%;
- }
- .upper-title {
+}
+
+.upper-title {
    display: flex;
- }
- .name-div { 
+}
+
+.name-div {
    padding-left: 20px;
    padding-top: 20px;
- }
+}
+
+.becomeMember-2-heading {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.img-2-3to4yr{
+   width: 90%;
+}
 
 /* Responsive CSS Here */
 @media screen and (min-device-width: 300px) and (max-device-width: 768px) {
@@ -1056,7 +1069,7 @@
    .img-2-president {
       margin-top: 12px;
 
-      
+
    }
 
    .swiper-button-next,
@@ -1066,16 +1079,58 @@
       border-radius: 50%;
       padding: 20px;
    }
-   .custom-wrap{
+
+   .custom-wrap {
       flex-wrap: wrap;
    }
+
    .upper-title {
       display: flex;
       flex-direction: column;
-    }
-    .name-div { 
+   }
+
+   .name-div {
       padding-left: 0px;
       padding-top: 20px;
-    }
+   }
+
+   .main-banner-heading-membership {
+      font-size: 50px;
+      font-weight: 800;
+      line-height: 50px;
+   }
+
+   .membership-heading {
+      font-size: 35px;
+   }
+
+   .becomeMember-2-heading {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+   }
+
+   .middle-line {
+      display: none;
+   }
+
+   .enroll-now-btn {
+      padding: 5px 60px;
+      border-radius: 50px;
+      font-size: 30px;
+      background: transparent;
+      border-color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+   }
+   .img-2-3to4yr{
+      width: 100%;
+   }
+   .amreesh-div{
+      margin-top: 10px;
+   }
 
 }

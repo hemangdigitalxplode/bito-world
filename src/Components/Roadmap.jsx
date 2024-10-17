@@ -45,7 +45,7 @@ const Roadmap = () => {
                     <Row style={{ marginTop: '25px' }}>
                         {/* Image */}
                         <Col lg={5}>
-                            <Image style={{ width: '90%' }} src={Img2} alt="hello" />
+                            <Image  src={Img2} className='img-2-3to4yr' alt="hello" />
                         </Col>
 
                         <Col className='middle-line' lg={2}>

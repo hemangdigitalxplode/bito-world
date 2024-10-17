@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <>
       <div style={{ backgroundColor: "#f5e0cb" }}>
-        <Container style={{ padding: "40px 0" }}>
+        <Container style={{ padding: "20px 0" }}>
           <Row>
             <Col lg={2} className="logo-div">
               <Image
