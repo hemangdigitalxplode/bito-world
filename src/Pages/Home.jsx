@@ -27,6 +27,7 @@ import {
   ObjectiveGoals,
 } from "../assets";
 import OurPartner from "../Components/OurPartner";
+import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <>
@@ -67,6 +68,8 @@ const Home = () => {
                 <p className="bottom-heading">
                   Empowering Bihar - Inspiring World
                 </p>
+                <Link to={'/membership'}>
+                
                 <Button
                   style={{
                     borderColor: "white",
@@ -78,6 +81,7 @@ const Home = () => {
                 >
                   Become a Member
                 </Button>
+                </Link>
               </Col>
 
               <Col lg={4}></Col>
@@ -128,77 +132,84 @@ const Home = () => {
                 <p className="bottom-heading">
                   Empowering Bihar - Inspiring World
                 </p>
+                <Link to={'/membership'}>
+                
                 <Button
                   style={{
                     borderColor: "white",
-                    fontSize: "12px",
-                    borderRadius: "50px", 
-                  }}
-                  className="rounded-full bg-white text-black outline-none border-none px-3 py-1 text-small"
-                >
-                  BECOME A MEMBER
-                 
-                </Button>
-              </Col>
-
-              <Col lg={4}></Col>
-
-              <Col className="right-heading right-col" lg={4}>
-                <h6>
-                  Your Gateway to <span>Bihar&apos;s</span>
-                </h6>
-                <h6>
-                  {" "}
-                  <span>Rich Heritage</span> and Future
-                </h6>
-                <h6>Opportunities</h6>
-
-                <hr style={{ color: "white" }} />
-                <p>
-                  Join us in celebrating Bihar&apos;s legacy while fostering
-                  innovation and global connections for a brighter tomorrow.
-                </p>
-              </Col>
-            </Row>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide
-          style={{
-            "background-image": `url(${BannerHome})`,
-            // "background-size": "contain",
-            "background-repeat": "no-repeat",
-            "background-position": "center",
-            padding: "250px 0",
-          }}
-          className="h-100"
-        >
-          <div className="container text-white">
-            <Row>
-              <Col lg={4}>
-                <div>
-                  <h6 style={{ fontSize: "20px" }}>
-                    Welcome to <br />
-                    <span className="sub-heading">
-                      Bihar International Trade Organization
-                    </span>{" "}
-                    <br />
-                    <span className="main-banner-heading p-0 m-0">BITO</span>
-                  </h6>
-                </div>
-
-                <p className="bottom-heading">
-                  Empowering Bihar - Inspiring World
-                </p>
-                <Button
-                  style={{
-                    borderColor: "white",
-                    fontSize: "12px",
+                    fontSize: "18px",
                     borderRadius: "50px",
+                    marginTop: "30px",
                   }}
-                  className="rounded-full bg-white text-black outline-none border-none px-3 py-1 text-small"
+                  className="rounded-full bg-white text-black outline-none border-none px-4 py-2 text-small"
                 >
-                  BECOME A MEMBER
+                  Become a Member
                 </Button>
+                </Link>
+              </Col>
+
+              <Col lg={4}></Col>
+
+              <Col className="right-heading right-col" lg={4}>
+                <h6>
+                  Your Gateway to <span>Bihar&apos;s</span>
+                </h6>
+                <h6>
+                  {" "}
+                  <span>Rich Heritage</span> and Future
+                </h6>
+                <h6>Opportunities</h6>
+
+                <hr style={{ color: "white" }} />
+                <p>
+                  Join us in celebrating Bihar&apos;s legacy while fostering
+                  innovation and global connections for a brighter tomorrow.
+                </p>
+              </Col>
+            </Row>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide
+          style={{
+            "background-image": `url(${BannerHome})`,
+            // "background-size": "contain",
+            "background-repeat": "no-repeat",
+            "background-position": "center",
+            padding: "250px 0",
+          }}
+          className="h-100"
+        >
+          <div className="container text-white">
+            <Row>
+              <Col lg={4}>
+                <div>
+                  <h6 style={{ fontSize: "20px" }}>
+                    Welcome to <br />
+                    <span className="sub-heading">
+                      Bihar International Trade Organization
+                    </span>{" "}
+                    <br />
+                    <span className="main-banner-heading p-0 m-0">BITO</span>
+                  </h6>
+                </div>
+
+                <p className="bottom-heading">
+                  Empowering Bihar - Inspiring World
+                </p>
+                <Link to={'/membership'}>
+                
+                <Button
+                  style={{
+                    borderColor: "white",
+                    fontSize: "18px",
+                    borderRadius: "50px",
+                    marginTop: "30px",
+                  }}
+                  className="rounded-full bg-white text-black outline-none border-none px-4 py-2 text-small"
+                >
+                  Become a Member
+                </Button>
+                </Link>
               </Col>
 
               <Col lg={4}></Col>

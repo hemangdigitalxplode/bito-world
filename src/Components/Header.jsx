@@ -3,24 +3,29 @@ import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { GiHamburgerMenu } from "react-icons/gi";
 import Logo from "../assets/logo.png";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <>
       <Navbar
-        style={{zIndex:'9'}}
+        style={{ zIndex: '9' }}
         className="p-4 d-flex justify-content-center align-items-center"
         expand="lg"
       >
         <Container className="d-lg-flex">
           {/* Left Nav Links */}
           <Nav className="me-auto d-none d-lg-flex">
+ 
             <Nav.Link href="#home" className="text-white">
               <GiHamburgerMenu size={30} />
             </Nav.Link>
-            <Nav.Link href="/" className="text-white">
-              Home
-            </Nav.Link>
+
+            <Link to={'/'} style={{ textDecoration: 'none' }}>
+              <Nav.Link href="/" className="text-white">
+                Home
+              </Nav.Link>
+            </Link> 
             <Nav.Link href="#about" className="text-white">
               About
             </Nav.Link>
@@ -36,14 +41,17 @@ const Header = () => {
           </Nav>
 
           {/* Logo in the Middle */}
-          <Navbar.Brand href="/" className="mx-auto">
-            <img
-              style={{ maxWidth: "70%" }}
-              src={Logo}
-              alt="Logo"
-              className="d-inline-block align-top"
-            />
-          </Navbar.Brand>
+          <Link to={'/'}>
+            <Navbar.Brand className="mx-auto">
+              <img
+                style={{ maxWidth: "70%" }}
+                src={Logo}
+                alt="Logo"
+                className="d-inline-block align-top"
+              />
+            </Navbar.Brand>
+          </Link>
+
 
           {/* Right Nav Links */}
           <Nav className="ms-auto d-none d-lg-flex">
@@ -59,9 +67,13 @@ const Header = () => {
             <Nav.Link href="#contact" className="text-white">
               Contact
             </Nav.Link>
-            <Nav.Link href="/membership" className="text-white">
-              Membership
-            </Nav.Link>
+
+            <Link style={{ textDecoration: 'none' }} to={'/membership'}>
+              <Nav.Link href="/membership" className="text-white">
+                Membership
+              </Nav.Link>
+            </Link>
+
           </Nav>
         </Container>
 

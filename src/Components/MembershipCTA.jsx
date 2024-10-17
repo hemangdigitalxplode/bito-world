@@ -65,7 +65,7 @@ const MembershipCTA = () => {
     const handleFinalSubmit = async () => {
         try {
             const result = await emailjs.send(serviceId, templateId, formData, publicKey);
-            toast.success("Form submitted and email sent successfully!");
+            toast.success("Thank you for submitting your details, you will be contacted by our team soon.");
             console.log("EmailJS Result:", result);
         } catch (error) {
             console.error("Email sending failed:", error);
