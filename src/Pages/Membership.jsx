@@ -60,8 +60,8 @@ const Membership = () => {
                     <h1 className='text-center membership-heading'>Become a Member</h1>
 
                     <div style={{ gap: '10px', marginTop: '50px' }} className='d-flex align-items-center justify-content-center'>
-                        <Button className=' py-2 member-btn'>BITO</Button>
-                        <Button className=' py-2 member-btn'>BIA</Button>
+                        <Button className=' py-2 member-btn'>Individual</Button>
+                        <Button className=' py-2 member-btn'>Corporate</Button>
                     </div>
                 </Container>
             </div>
