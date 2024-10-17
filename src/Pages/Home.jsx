@@ -4,8 +4,9 @@ import BannerHome from "../assets/home-baner.png";
 import { Button, Col, Container, Image, Row } from "react-bootstrap";
 import Section2 from "../assets/section-2.png";
 import Section3 from "../assets/chirag-paswan.png";
-import PravinKumar from "../assets/pravin-kumar.png";
+import PravinKumar from "../assets/praveen.jpg";
 import MembershipImg from "../assets/membership.png";
+import Amresh from '../assets/amresh.jpg'
 import Vision from "../assets/Layer-21.png";
 import Mission from "../assets/Layer-22.png";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -38,7 +39,7 @@ const Home = () => {
         className="mySwiper mainSwiper"
         style={{
           "--swiper-navigation-color": "#fff",
-          "marginTop" : "-170px"
+          "marginTop": "-170px"
         }}
       >
         <SwiperSlide
@@ -46,7 +47,7 @@ const Home = () => {
             "background-image": `url(${BannerHome})`,
             // "background-size": "contain",
             "background-repeat": "no-repeat",
-            "background-position": "center", 
+            "background-position": "center",
           }}
           className="h-100 home-slider"
         >
@@ -68,18 +69,18 @@ const Home = () => {
                   Empowering Bihar - Inspiring World
                 </p>
                 <Link to={'/membership'}>
-                
-                <Button
-                  style={{
-                    borderColor: "white",
-                    fontSize: "18px",
-                    borderRadius: "50px",
-                    marginTop: "30px",
-                  }}
-                  className="rounded-full bg-white text-black outline-none border-none px-4 py-2 text-small"
-                >
-                  Become a Member
-                </Button>
+
+                  <Button
+                    style={{
+                      borderColor: "white",
+                      fontSize: "18px",
+                      borderRadius: "50px",
+                      marginTop: "30px",
+                    }}
+                    className="rounded-full bg-white text-black outline-none border-none px-4 py-2 text-small"
+                  >
+                    Become a Member
+                  </Button>
                 </Link>
               </Col>
 
@@ -110,7 +111,7 @@ const Home = () => {
             // "background-size": "contain",
             "background-repeat": "no-repeat",
             "background-position": "center",
-            
+
           }}
           className="h-100 home-slider"
         >
@@ -132,18 +133,18 @@ const Home = () => {
                   Empowering Bihar - Inspiring World
                 </p>
                 <Link to={'/membership'}>
-                
-                <Button
-                  style={{
-                    borderColor: "white",
-                    fontSize: "18px",
-                    borderRadius: "50px",
-                    marginTop: "30px",
-                  }}
-                  className="rounded-full bg-white text-black outline-none border-none px-4 py-2 text-small"
-                >
-                  Become a Member
-                </Button>
+
+                  <Button
+                    style={{
+                      borderColor: "white",
+                      fontSize: "18px",
+                      borderRadius: "50px",
+                      marginTop: "30px",
+                    }}
+                    className="rounded-full bg-white text-black outline-none border-none px-4 py-2 text-small"
+                  >
+                    Become a Member
+                  </Button>
                 </Link>
               </Col>
 
@@ -174,7 +175,7 @@ const Home = () => {
             // "background-size": "contain",
             "background-repeat": "no-repeat",
             "background-position": "center",
-           
+
           }}
           className="h-100 home-slider"
         >
@@ -196,18 +197,18 @@ const Home = () => {
                   Empowering Bihar - Inspiring World
                 </p>
                 <Link to={'/membership'}>
-                
-                <Button
-                  style={{
-                    borderColor: "white",
-                    fontSize: "18px",
-                    borderRadius: "50px",
-                    marginTop: "30px",
-                  }}
-                  className="rounded-full bg-white text-black outline-none border-none px-4 py-2 text-small"
-                >
-                  Become a Member
-                </Button>
+
+                  <Button
+                    style={{
+                      borderColor: "white",
+                      fontSize: "18px",
+                      borderRadius: "50px",
+                      marginTop: "30px",
+                    }}
+                    className="rounded-full bg-white text-black outline-none border-none px-4 py-2 text-small"
+                  >
+                    Become a Member
+                  </Button>
                 </Link>
               </Col>
 
@@ -318,52 +319,67 @@ const Home = () => {
             </Col>
           </Row>
           {/* Fouth Section */}
+          {/* Prvin kumar */}
           <Row className="mt-5">
             <Col lg={6}>
-              <Image className="mw-100" src={PravinKumar} alt="pravin-kumar" />
-              <h2 className="section-2-head">Pravin Kumar</h2>
-              <p className="chairman">President</p>
-              <span className="chairmain-inner">
-                Welcome to Bihar International Trade Organization
-              </span>
-              <p className="chairmain-msg">
-                Dear All,
-                <br />
-                <br />
-                It is with great pride and responsibility that I address you as
-                the President of the Bihar International Trade Organisation
-                (BITO). Under leadership of Sh. Chirag Paswan , as we embark on
-                a transformative journey, BITO is set to drive significant
-                change in the social, economic, and cultural landscapes of
-                Bihar.....
-              </p>
-              <div>
-                <Button className="section-3-btn px-4 py-2">Read More</Button>
+              <div className="president-card">
+                <div className="upper-title">
+                  <Image className="img-2-president" src={PravinKumar} alt="pravin-kumar" />
+                  <div className="name-div"> 
+                    <h2 className="section-2-head">Pravin Kumar</h2>
+                    <p className="chairman">President</p>
+
+                  </div>
+                </div>
+                <p className="chairmain-inner">
+                  Welcome to Bihar International Trade Organization
+                </p>
+                <p className="chairmain-msg">
+                  Dear All,
+                  <br />
+                  <br />
+                  It is with great pride and responsibility that I address you as
+                  the President of the Bihar International Trade Organisation
+                  (BITO). Under leadership of Sh. Chirag Paswan , as we embark on
+                  a transformative journey, BITO is set to drive significant
+                  change in the social, economic, and cultural landscapes of
+                  Bihar.....
+                </p>
+                <div>
+                  <Button className="section-3-btn px-4 py-2">Read More</Button>
+                </div>
               </div>
             </Col>
 
-            {/* <Col lg={6}>
-              <Image className="mw-100 img-2-president" src={PravinKumar} alt="pravin-kumar" />
-              <h2 className="section-2-head">Pravin Kumar</h2>
-              <p className="chairman">President</p>
-              <span className="chairmain-inner">
-                Welcome to Bihar International Trade Organization
-              </span>
-              <p className="chairmain-msg">
-                Dear All,
-                <br />
-                <br />
-                It is with great pride and responsibility that I address you as
-                the President of the Bihar International Trade Organisation
-                (BITO). Under leadership of Sh. Chirag Paswan , as we embark on
-                a transformative journey, BITO is set to drive significant
-                change in the social, economic, and cultural landscapes of
-                Bihar.....
-              </p>
-              <div>
-                <Button className="section-3-btn px-4 py-2">Read More</Button>
+            <Col lg={6}>
+            <div className="president-card">
+                <div className="upper-title">
+                  <Image className=" img-2-president" src={Amresh} alt="amresh-ji" />
+                  <div className="name-div"> 
+                    <h2 className="section-2-head">Amresh</h2>
+                    <p className="chairman">President</p>
+
+                  </div>
+                </div>
+                <p className="chairmain-inner">
+                  Welcome to Bihar International Trade Organization
+                </p>
+                <p className="chairmain-msg">
+                  Dear All,
+                  <br />
+                  <br />
+                  It is with great pride and responsibility that I address you as
+                  the President of the Bihar International Trade Organisation
+                  (BITO). Under leadership of Sh. Chirag Paswan , as we embark on
+                  a transformative journey, BITO is set to drive significant
+                  change in the social, economic, and cultural landscapes of
+                  Bihar.....
+                </p>
+                <div>
+                  <Button className="section-3-btn px-4 py-2">Read More</Button>
+                </div>
               </div>
-            </Col> */}
+            </Col>
           </Row>
           <div className="w-100 mx-auto">
             <h1
@@ -426,7 +442,7 @@ const Home = () => {
       <div style={{ backgroundColor: "#422a1e" }}>
         <Container>
           <Row className="mission-vision-row" style={{ padding: "35px 0" }}>
-            <Col className="mission-vision-row-col-1"  lg={6}>
+            <Col className="mission-vision-row-col-1" lg={6}>
               <div className="vision">
                 <div
                   style={{ gap: "20px" }}
@@ -454,7 +470,7 @@ const Home = () => {
               </div>
             </Col>
 
-            <Col className="mx-auto mission-vision-row-col-2"  lg={6}>
+            <Col className="mx-auto mission-vision-row-col-2" lg={6}>
               <div className="mission">
                 <div
                   style={{ gap: "20px" }}

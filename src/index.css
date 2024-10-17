@@ -120,12 +120,10 @@
    max-width: 25%;
 }
 
-.chairmain-inner {
-   color: #422a1d;
-}
+ 
 
 .chairmain-msg {
-   margin-top: 30px;
+   margin-top: 10px;
    color: #422a1d;
 }
 
@@ -482,10 +480,12 @@
 
 .chairmain-inner {
    color: #422a1d;
+   margin-top: 13px;
+  font-weight: 600;
 }
 
 .chairmain-msg {
-   margin-top: 30px;
+   margin-top: 10px;
    color: #422a1d;
 }
 
@@ -898,7 +898,21 @@
 .newsletter-col {
    width: 44%;
 }
-
+.president-card {
+   border: 8px solid #b27f4a;
+   padding: 30px;
+   border-radius: 20px;
+ }
+ .img-2-president{
+   width: 30%;
+ }
+ .upper-title {
+   display: flex;
+ }
+ .name-div { 
+   padding-left: 20px;
+   padding-top: 20px;
+ }
 
 /* Responsive CSS Here */
 @media screen and (min-device-width: 300px) and (max-device-width: 768px) {
@@ -1041,6 +1055,8 @@
 
    .img-2-president {
       margin-top: 12px;
+
+      
    }
 
    .swiper-button-next,
@@ -1053,4 +1069,13 @@
    .custom-wrap{
       flex-wrap: wrap;
    }
+   .upper-title {
+      display: flex;
+      flex-direction: column;
+    }
+    .name-div { 
+      padding-left: 0px;
+      padding-top: 20px;
+    }
+
 }
