@@ -342,7 +342,7 @@ const Home = () => {
               </div>
             </Col>
 
-            <Col lg={6}>
+            {/* <Col lg={6}>
               <Image className="mw-100 img-2-president" src={PravinKumar} alt="pravin-kumar" />
               <h2 className="section-2-head">Pravin Kumar</h2>
               <p className="chairman">President</p>
@@ -363,7 +363,7 @@ const Home = () => {
               <div>
                 <Button className="section-3-btn px-4 py-2">Read More</Button>
               </div>
-            </Col>
+            </Col> */}
           </Row>
           <div className="w-100 mx-auto">
             <h1
