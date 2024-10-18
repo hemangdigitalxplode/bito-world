@@ -931,6 +931,25 @@
 .img-2-3to4yr{
    width: 90%;
 }
+.infographic-div{
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+.infographic-container{
+   margin-top: 35px;
+}
+.name-div-head{
+   color: #422a1d;
+  font-weight: 700;
+  font-size: 21px;
+}
+.name-div-subhead{
+   font-size: 12px;
+  color: #523b2f;
+  font-weight: 600;
+}
+
 
 /* Responsive CSS Here */
 @media screen and (min-device-width: 300px) and (max-device-width: 768px) {

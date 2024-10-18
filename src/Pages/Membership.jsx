@@ -6,6 +6,11 @@ import RightArrow from '../assets/right-arrow.png'
 import Kamal from '../assets/kamal.png'
 import MembershipCTA from '../Components/MembershipCTA'
 import Roadmap from '../Components/Roadmap'
+import Discount from '../assets/Discount.png'
+import Development from '../assets/Development.png'
+import Professional from '../assets/Professional.png'
+import Trades from '../assets/Trades.png'
+
 
 const Membership = () => {
     return (
@@ -19,7 +24,7 @@ const Membership = () => {
                     "background-repeat": "no-repeat",
                     "background-position": "center",
                     padding: "350px 0",
-                    marginTop:'-170px'
+                    marginTop: '-170px'
                 }}
                 className="h-100">
 
@@ -72,6 +77,34 @@ const Membership = () => {
             <Container className='my-5'>
 
                 <Row>
+                    <Col lg={4}>
+                        <h2 style={{ color: '#b27f4a' }} className='section-2-head'>Benefits of <br /> BITO Membership</h2>
+
+                        <div className='infographic-container'>
+
+                            <div className='infographic-div'>
+                                <Image src={Discount} alt='discount' />
+                                <p>Access to Exclusive Trade Resources and Markets</p>
+                            </div>
+                            <div className='infographic-div'>
+                                <Image src={Professional} alt='discount' />
+                                <p> Professional Connections: Network with industry leaders and global partners.</p>
+                            </div>
+                            <div className='infographic-div'>
+                                <Image src={Development} alt='discount' />
+                                <p>Professional Development: Enhance skills through workshops, seminars, and
+                                    training.</p>
+                            </div>
+                            <div className='infographic-div'>
+                                <Image src={Trades} alt='discount' />
+                                <p>Exclusive Discounts: Avail discounts on trade services and events.</p>
+                            </div>
+
+                        </div>
+                    </Col>
+
+
+
                     <Col className='left-side-div' lg={4}>
                         <h2 style={{ color: '#b27f4a' }} className='section-2-head'>Transform Bihar <br /> Together, We Can</h2>
                         <div className='section-para'>
@@ -105,9 +138,9 @@ const Membership = () => {
                             justifyContent: 'center',
                             alignItems: 'center'
                         }}
-                        lg={8}>
+                        lg={4}>
 
-                        <Image style={{ width: '70%' }} src={Kamal} alt="img" />
+                        <Image style={{ width: '100%' }} src={Kamal} alt="img" />
                     </Col>
                 </Row>
             </Container>

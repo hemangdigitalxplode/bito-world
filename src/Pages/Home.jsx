@@ -9,6 +9,8 @@ import MembershipImg from "../assets/membership.png";
 import Amresh from '../assets/amresh.jpg'
 import Vision from "../assets/Layer-21.png";
 import Mission from "../assets/Layer-22.png";
+import Kamal from '../assets/kamal.png'
+import Jeff from '../assets/Jheff.jpg'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
@@ -235,6 +237,49 @@ const Home = () => {
         </SwiperSlide>
       </Swiper>
 
+      <Container className='my-5'>
+
+        <Row>
+          <Col className='left-side-div' lg={4}>
+            <h2 style={{ color: '#b27f4a' }} className='section-2-head'>Transform Bihar <br /> Together, We Can</h2>
+            <div className='section-para'>
+              <p>BITO invites investors, organizations, NRIs, and HNIs to be part of this transformative journey.</p>
+
+              <p>
+                With a dedicated team, advanced infrastructure, and extensive resources, we offer a seamless experience through our Single-Window Clearance system.
+              </p>
+              <p>
+                <span style={{ fontWeight: 'bold' }}>Explore diverse opportunities </span>
+                to make
+                a significant impact:
+              </p>
+
+            </div>
+
+
+
+          </Col>
+
+
+
+
+
+
+
+
+          <Col
+            style={{
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center'
+            }}
+            lg={8}>
+
+            <Image style={{ width: '70%' }} src={Kamal} alt="img" />
+          </Col>
+        </Row>
+      </Container>
+
       {/* Second Section */}
       <Container className="mb-5" style={{ marginTop: "80px" }}>
         <Row className="section-2-row">
@@ -282,7 +327,7 @@ const Home = () => {
       <div style={{ marginTop: "80px", backgroundColor: "#fffbf5" }}>
         <Container className="mb-5" style={{ marginTop: "80px" }}>
           <h1 className="text-center section-3-heading">
-            Meet Our Visinory Leaders
+            Meet Our Visionary Leaders
           </h1>
           <Row className="section-2-row">
             {/* Right div for image */}
@@ -295,7 +340,7 @@ const Home = () => {
             </Col>
             {/* Left div for content */}
             <Col className="left-side-div" lg={6}>
-              <h2 className="section-2-head">Chirag Paswan</h2>
+              <h2 className="section-2-head">Honorable Chirag Paswan</h2>
               <p className="chairman">Chairman</p>
               <div className="section-para">
                 <p>
@@ -321,13 +366,13 @@ const Home = () => {
           {/* Fouth Section */}
           {/* Prvin kumar */}
           <Row className="mt-5">
-            <Col lg={6}>
+            <Col lg={4}>
               <div className="president-card-2">
                 <div className="upper-title">
                   <Image className="img-2-president" src={PravinKumar} alt="pravin-kumar" />
                   <div className="name-div">
-                    <h2 className="section-2-head">Pravin Kumar</h2>
-                    <p className="chairman">President</p>
+                    <h2 className="name-div-head">Pravin Kumar</h2>
+                    <p className="name-div-subhead">President</p>
 
                   </div>
                 </div>
@@ -351,13 +396,13 @@ const Home = () => {
               </div>
             </Col>
 
-            <Col className="amreesh-div" lg={6}>
+            <Col className="amreesh-div" lg={4}>
               <div className="president-card">
                 <div className="upper-title">
                   <Image className=" img-2-president" src={Amresh} alt="amresh-ji" />
                   <div className="name-div">
-                    <h2 className="section-2-head">Amresh</h2>
-                    <p className="chairman">Secretary-General
+                    <h2 className="name-div-head">Amresh</h2>
+                    <p className="name-div-subhead">Secretary-General
                     </p>
 
                   </div>
@@ -369,7 +414,33 @@ const Home = () => {
                   Dear All,
                   <br />
                   <br />
-                  As Secretary General of BITO, I am proud to lead an organization that drives innovation and collaboration in our industry. Our commitment to advancing technology and fostering global partnerships has never been stronger. Together, we will continue to overcome challenges and create opportunities for sustainable growth and development. 
+                  As Secretary General of BITO, I am proud to lead an organization that drives innovation and collaboration in our industry. Our commitment to advancing technology and fostering global partnerships has never been stronger. Together, we will continue to overcome challenges and create opportunities for sustainable growth and development.
+                </p>
+                <div>
+                  <Button className="section-3-btn px-4 py-2">Read More</Button>
+                </div>
+              </div>
+            </Col>
+            {/* Jeff div */}
+            <Col className="amreesh-div" lg={4}>
+              <div className="president-card">
+                <div className="upper-title">
+                  <Image style={{objectFit:'cover'}} className=" img-2-president" src={Jeff} alt="amresh-ji" />
+                  <div className="name-div">
+                    <h2 className="name-div-head">Clr. Jeff Whitton FAICD</h2>
+                    <p className="name-div-subhead">Honorary Global Advisor 
+                    </p>
+
+                  </div>
+                </div>
+                <p className="chairmain-inner">
+                  Welcome to Bihar International Trade Organization
+                </p>
+                <p className="chairmain-msg">
+                  Dear All,
+                  <br />
+                  <br />
+                  Clr. Jeff Whitton FAICD, is an esteemed Australian businessman and entrepreneur with over three decades of industry leadership. With 20 years of dedicated service as a Local Government councillor, Jeff has been a driving force in public service and community development, leaving a lasting impact on the communities he serves. His exceptional career spans 40 years ....
                 </p>
                 <div>
                   <Button className="section-3-btn px-4 py-2">Read More</Button>
@@ -421,7 +492,7 @@ const Home = () => {
                 <Link to={'/membership'}>
                   <Button className="membership-btn px-4 mt-4">
                     Become A Member
-                  </Button> 
+                  </Button>
                 </Link>
               </div>
             </div>
