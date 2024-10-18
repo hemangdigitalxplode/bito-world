@@ -1,4 +1,4 @@
-/* eslint-disable no-unused-vars */
+
 import React from "react";
 import BannerHome from "../assets/home-baner.png";
 import { Button, Col, Container, Image, Row } from "react-bootstrap";
@@ -31,7 +31,22 @@ import {
 } from "../assets";
 import OurPartner from "../Components/OurPartner";
 import { Link } from "react-router-dom";
-const Home = () => {
+import Modal from 'react-bootstrap/Modal';
+
+
+
+const Home = (props) => {
+
+  const [modalShow, setModalShow] = React.useState(false);
+  const [modalShow2, setModalShow2] = React.useState(false)
+  const [modalShow3, setModalShow3] = React.useState(false)
+  const [modalShow4, setModalShow4] = React.useState(false)
+
+  const handleClose = () => setModalShow(false);
+  const handleClose2 = () => setModalShow2(false)
+  const handleClose3 = () => setModalShow3(false)
+  const handleClose4 = () => setModalShow4(false)
+
   return (
     <>
       {/* Hero Banner */}
@@ -339,8 +354,67 @@ const Home = () => {
               />
             </Col>
             {/* Left div for content */}
+            {/* Modal Popup for Chirag Paswan */}
+            <Modal
+              {...props}
+              size="lg"
+              aria-labelledby="contained-modal-title-vcenter"
+              centered
+              show={modalShow}
+              onHide={handleClose}
+            >
+              <Modal.Header closeButton>
+                <Modal.Title id="contained-modal-title-vcenter">
+                  <h2 className="section-2-head">Hon'ble Minister Shri Chirag Paswan
+                  </h2>
+                  <p className="chairman">Chairman</p>
+                </Modal.Title>
+              </Modal.Header>
+              <Modal.Body>
+                
+                <p>
+                  Dear All,
+                  <br />
+                  <br />
+                  I extend a warm welcome to you on behalf of Bihar International Trade Organization (BITO), a platform committed to advancing economic prosperity and cultural heritage in Bihar. At BITO, our mission revolves around shaping an "Atma Nirbhar Bihar" and fostering positive change through collaborative efforts.
+                  <br />
+                  <br />
+                  Empowering Innovation with BITO Startup Incubator
+                  <br />
+                  <br />
+                  We are excited to share our latest endeavor, the BITO Startup Incubator, a pivotal initiative fostering innovation and entrepreneurship. This initiative positions Bihar as a hub for creative ventures, contributing to the state's self-reliance.
+                  <br />
+                  <br />
+                  Global Collaboration for Economic Growth
+                  <br />
+                  <br />
+                  BITO has established chapters in 21 countries, strategically positioned to facilitate investments in Bihar. Our global presence is dedicated to accelerating economic growth and creating opportunities for both local and international investors.
+                  <br />
+                  Celebrating Bihar's Rich Cultural Heritage
+                  <br />
+                  <br />
+                  Bihar is the cradle of cultural luminaries such as Mother Sita, Lord Buddha, Lord Mahavir, Guru Govind Singh, and many others. BITO is dedicated to promoting Bihar's rich cultural heritage globally, recognizing its potential for tourism and religious pilgrimage.
+                  <br />
+                  <br />
+                  Embracing "Bihari Asmita"
+                  <br />
+                  Join us in celebrating "Bihari Asmita," where we take pride in declaring, "Yes, I am Bihari." This affirmation encapsulates the essence of Bihar's cultural richness and the significant contributions of its people on the global stage.
+                  <br />
+                  Transform Bihar: Together We Can
+                  <br />
+                  We invite you to embark on a transformative journey with BITO. "Transform Bihar: Together We Can" is not just a motto; it's an invitation to unite, share expertise, and collectively drive economic growth. Your involvement can make a significant impact, contributing to a brighter and more prosperous Bihar. Thank you for joining us on this exciting journey. Together, let's shape a future where Bihar thrives economically and culturally.
+                  <br />
+                  <br />
+                  Warm regards,
+                  <br />
+                  Chirag Paswan
+                </p>
+              </Modal.Body>
+
+            </Modal>
             <Col className="left-side-div" lg={6}>
-              <h2 className="section-2-head">Honorable Chirag Paswan</h2>
+              <h2 className="section-2-head">Hon'ble Minister Shri Chirag Paswan
+              </h2>
               <p className="chairman">Chairman</p>
               <div className="section-para">
                 <p>
@@ -359,12 +433,58 @@ const Home = () => {
               </div>
 
               <div>
-                <Button className="section-3-btn px-4 py-2">Read More</Button>
+                <Button onClick={() => setModalShow(true)} className="section-3-btn px-4 py-2">Read More</Button>
               </div>
             </Col>
           </Row>
           {/* Fouth Section */}
           {/* Prvin kumar */}
+          {/* Pravin Kumar Modal */}
+          <Modal
+            {...props}
+            size="lg"
+            aria-labelledby="contained-modal-title-vcenter"
+            centered
+            show={modalShow2}
+            onHide={handleClose2}
+          >
+            <Modal.Header closeButton>
+              <Modal.Title id="contained-modal-title-vcenter">
+                <h2 className="name-div-head">Pravin Kumar</h2>
+                <p className="name-div-subhead">President</p>
+              </Modal.Title>
+            </Modal.Header>
+            <Modal.Body>
+              
+
+              <p>
+                Dear All,
+                <br />
+                <br />
+                It is with great pride and responsibility that I address you as the President of the Bihar International Trade Organisation (BITO). Under leadership of Sh. Chirag Paswan , as we embark on a transformative journey, BITO is set to drive significant change in the social, economic, and cultural landscapes of Bihar.
+                <br />
+                <br />
+                Our mission is deeply rooted in the abundant potential of Bihar—a state rich in resources, culture, and talent. Recognizing the untapped capabilities of our local industries and the creativity of our entrepreneurs, BITO is dedicated to creating an environment where these elements can flourish. Our strategic support and development initiatives are focused on strengthening local industries and igniting a startup revolution in our state. This commitment to nurturing local businesses and startups is at the heart of our strategy to enhance employment and economic growth in Bihar.
+                <br />
+                <br />
+                Additionally, BITO is committed to promoting Bihari culture globally. Our rich heritage, spanning centuries, is deserving of global recognition. By showcasing our traditions, arts, and festivals internationally, we aim to instill a sense of pride among Biharis worldwide and establish connections that go beyond borders. This initiative to champion our culture not only enhances Bihar's global image but also attracts tourism and international investments, benefiting our local economy.
+                <br />
+                <br />
+                The path ahead is filled with both opportunities and challenges. With the combined efforts of our members, partners, and the broader community, I am confident in BITO's role in shaping a brighter future for Bihar. Let us move forward with determination to transform Bihar into a hub of industry, innovation, and cultural pride.
+                <br />
+                <br />
+                Join us in celebrating "Bihari Asmita," where we take pride in declaring, "Yes, I am Bihari." This affirmation encapsulates the essence of Bihar's cultural richness and the significant contributions of its people on the global stage.
+                <br />
+                <br />
+                Together, let's embrace this journey of transformation and make a lasting impact.
+                <br />
+                <br />
+                Best regards, <br />
+                Pravin Kumar
+              </p>
+            </Modal.Body>
+
+          </Modal>
           <Row className="mt-5">
             <Col lg={4}>
               <div className="president-card-2">
@@ -391,17 +511,46 @@ const Home = () => {
                   Bihar.....
                 </p>
                 <div>
-                  <Button className="section-3-btn px-4 py-2">Read More</Button>
+                  <Button onClick={() => setModalShow2(true)} className="section-3-btn px-4 py-2">Read More</Button>
                 </div>
               </div>
             </Col>
+            {/* Aamreesh mishra modal */}
+            <Modal
+              {...props}
+              size="lg"
+              aria-labelledby="contained-modal-title-vcenter"
+              centered
+              show={modalShow3}
+              onHide={handleClose3}
+            >
+              <Modal.Header closeButton>
+                <Modal.Title id="contained-modal-title-vcenter">
+                  <h2 className="name-div-head">Amaresh Mishra
+                  </h2>
+                  <p className="name-div-subhead">Secretary-General
+                  </p>
+                </Modal.Title>
+              </Modal.Header>
+              <Modal.Body>
+               
 
+                <p>
+                  Dear All,
+                  <br />
+                  <br />
+                  As Secretary General of BITO, I am proud to lead an organization that drives innovation and collaboration in our industry. Our commitment to advancing technology and fostering global partnerships has never been stronger. Together, we will continue to overcome challenges and create opportunities for sustainable growth and development.
+                </p>
+              </Modal.Body>
+
+            </Modal>
             <Col className="amreesh-div" lg={4}>
               <div className="president-card">
                 <div className="upper-title">
                   <Image className=" img-2-president" src={Amresh} alt="amresh-ji" />
                   <div className="name-div">
-                    <h2 className="name-div-head">Amresh</h2>
+                    <h2 className="name-div-head">Amaresh Mishra
+                    </h2>
                     <p className="name-div-subhead">Secretary-General
                     </p>
 
@@ -417,18 +566,56 @@ const Home = () => {
                   As Secretary General of BITO, I am proud to lead an organization that drives innovation and collaboration in our industry. Our commitment to advancing technology and fostering global partnerships has never been stronger. Together, we will continue to overcome challenges and create opportunities for sustainable growth and development.
                 </p>
                 <div>
-                  <Button className="section-3-btn px-4 py-2">Read More</Button>
+                  <Button onClick={() => setModalShow3(true)} className="section-3-btn px-4 py-2">Read More</Button>
                 </div>
               </div>
             </Col>
             {/* Jeff div */}
+            {/* Jeff Modal */}
+            <Modal
+              {...props}
+              size="lg"
+              aria-labelledby="contained-modal-title-vcenter"
+              centered
+              show={modalShow4}
+              onHide={handleClose4}
+            >
+              <Modal.Header closeButton>
+                <Modal.Title id="contained-modal-title-vcenter">
+                  <h2 className="name-div-head">Clr. Jeff Whitton FAICD</h2>
+                  <p className="name-div-subhead">Honorary Global Advisor
+                  </p>
+                </Modal.Title>
+              </Modal.Header>
+              <Modal.Body>
+               
+
+                <p>
+                  Dear All,
+                  <br />
+                  <br />
+                  Clr. Jeff Whitton FAICD, is an esteemed Australian businessman and entrepreneur with over three decades of industry leadership. With 20 years of dedicated service as a Local Government councillor, Jeff has been a driving force in public service and community development, leaving a lasting impact on the communities he serves. His exceptional career spans 40 years in Digital Technology, Cybersecurity, and Information Intelligence, making him a formidable expert in these critical domains.
+                  <br />
+                  <br />
+                  As a seasoned CEO and Board Chairman, Jeff is celebrated for his visionary leadership and strategic acumen. He is a passionate advocate for Regional Australia, where he has been a relentless champion for initiatives that drive social, economic, and cultural transformation. Jeff’s unwavering commitment to progress underscores his reputation as a trailblazer who is deeply invested in shaping the future of Australia’s regional landscapes.
+                  <br />
+                  <br />
+                  In his capacity as a Global Advisor, Jeff Whitton is set to lead and fortify the burgeoning partnership between Australia and India, with a special focus on the Bihar International Trade Organisation (BITO). At the core of BITO’s mission is the powerful concept of Bihari Asmita, which champions the vibrant cultural identity and pride of Bihar. Jeff is poised to advance BITO’s vision, propelling the revival and celebration of Bihar’s rich traditions, arts, crafts, and heritage. He recognizes that this cultural renaissance is vital for cultivating a dynamic community of entrepreneurs and innovators who are rooted in their heritage while striving for global excellence.
+                  <br />
+                  <br />
+                  Jeff’s leadership will be a catalyst in forging strong collaborations that bridge the cultural and economic ties between Australia and India. His visionary approach will ensure that BITO continues to ignite a deep sense of pride and belonging among Biharis, empowering them to excel on the global stage. Under his stewardship, the relationship between these two great nations, particularly through BITO’s initiatives, is destined to flourish, creating transformative opportunities that celebrate and elevate the rich cultural legacy of Bihar.
+                </p>
+              </Modal.Body>
+
+            </Modal>
+
             <Col className="amreesh-div" lg={4}>
               <div className="president-card">
                 <div className="upper-title">
-                  <Image style={{objectFit:'cover'}} className=" img-2-president" src={Jeff} alt="amresh-ji" />
+                  <Image style={{ objectFit: 'cover' }} className=" img-2-president" src={Jeff} alt="amresh-ji" />
                   <div className="name-div">
                     <h2 className="name-div-head">Clr. Jeff Whitton FAICD</h2>
-                    <p className="name-div-subhead">Honorary Global Advisor 
+                    <p className="name-div-subhead">Honorary Global Advisor
                     </p>
 
                   </div>
@@ -443,7 +630,7 @@ const Home = () => {
                   Clr. Jeff Whitton FAICD, is an esteemed Australian businessman and entrepreneur with over three decades of industry leadership. With 20 years of dedicated service as a Local Government councillor, Jeff has been a driving force in public service and community development, leaving a lasting impact on the communities he serves. His exceptional career spans 40 years ....
                 </p>
                 <div>
-                  <Button className="section-3-btn px-4 py-2">Read More</Button>
+                  <Button onClick={() => setModalShow4(true)} className="section-3-btn px-4 py-2">Read More</Button>
                 </div>
               </div>
             </Col>
@@ -456,11 +643,12 @@ const Home = () => {
                 color: "#b27f4a",
                 marginTop: "30px",
                 fontWeight: "600",
+                textDecoration:'underline'
               }}
               className="text-center"
             >
               Meet our Advisory Board
-              <span
+              {/* <span
                 style={{
                   position: "absolute",
                   bottom: "-10px", // Adjusts distance below the heading
@@ -470,7 +658,7 @@ const Home = () => {
                   height: "2px", // Thickness of the underline
                   backgroundColor: "#b27f4a", // Color of the underline
                 }}
-              ></span>
+              ></span> */}
             </h1>
           </div>
         </Container>
@@ -533,9 +721,10 @@ const Home = () => {
                   and prosperity for generations to come.
                 </p>
 
-                <div>
+                {/* <div>
                   <Button className="vision-btn px-4 py-2">Read More</Button>
-                </div>
+                </div> */}
+
               </div>
             </Col>
 
@@ -618,9 +807,9 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <button className="section-3-btn px-4 py-2 btn btn-primary">
+          {/* <button className="section-3-btn px-4 py-2 btn btn-primary">
             Read more
-          </button>
+          </button> */}
         </div>
         <div className="w-50">
           <Image src={ObjectiveGoals} alt="" className="objective-img" />
@@ -682,9 +871,9 @@ const Home = () => {
               </strong>
             </div>
           </div>
-          <button className="section-3-btn px-4 py-2 btn btn-primary">
+          {/* <button className="section-3-btn px-4 py-2 btn btn-primary">
             Read more
-          </button>
+          </button> */}
         </Container>
       </div>
 
@@ -743,9 +932,9 @@ const Home = () => {
             <strong>BITO Multi Specialty Hospital</strong>
           </div>
         </div>
-        <button className="section-3-btn px-4 py-2 btn btn-primary">
+        {/* <button className="section-3-btn px-4 py-2 btn btn-primary">
           Read more
-        </button>
+        </button> */}
       </Container>
 
       <div className="my-5">

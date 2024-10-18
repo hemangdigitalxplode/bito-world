@@ -53,7 +53,7 @@ const Footer = () => {
 
                 <p className="email">
                   {" "}
-                  <span style={{marginRight:'10px'}}>Email:</span>office@bitoworld.in
+                  <span style={{ marginRight: '10px' }}>Email:</span>office@bitoworld.in
                 </p>
               </div>
             </Col>
@@ -63,31 +63,32 @@ const Footer = () => {
               lg={3}
             >
               <div className="quick-links">
-                <p style={{fontSize:'15px',fontWeight:'600'}}>Quick Links</p>
-                <li>Home</li>
+                <p style={{ fontSize: '15px', fontWeight: '600' }}>Quick Links</p>
+                <li href="/">Home</li>
                 <li>About</li>
-                <li>Our Work</li>
+                <li  href="https://bitoworld.in/old-site/history.php">Our Work</li>
                 <li>Chapter</li>
                 <li>Bihar Voice</li>
               </div>
             </Col>
 
             <Col
-              className="quick-links-container-2" 
+              className="quick-links-container-2"
               lg={3}
             >
               <div className="quick-links-2">
                 <li>EOI for BIA</li>
-                <li>BSIC</li>
-                <li>Events</li>
+                <li href="https://bitoworld.in/old-site/BSIC.php">BSIC</li>
+                <li href="https://bitoworld.in/old-site/bitoashmita.php">Events</li>
                 <li>Media</li>
-                <li>Job</li>
+                <li href="https://bitoworld.in/old-site/career.php">Job</li>
                 <li>Contact</li>
-                <li>Membership</li>
+                <Link  style={{textDecoration:'none',color:'black'}} to={'/membership'}>Membership</Link>
+                 
               </div>
             </Col>
 
-            <Col  className="mx-auto newsletter-col"  lg={3}>
+            <Col className="mx-auto newsletter-col" lg={3}>
               <div className="newsletter-div">
                 <p>Newsletter</p>
                 <div
@@ -106,7 +107,7 @@ const Footer = () => {
                   <p>Social Links</p>
 
                   <div className="social-icons d-flex align-items-center">
-                    <Link>
+                    <Link to={'https://www.facebook.com/people/Bihar-International-Trade-Organisation/61553947718537/?mibextid=ZbWKwL'}>
                       <Image
                         src={Facebook}
                         className="social-links-img"
@@ -120,7 +121,7 @@ const Footer = () => {
                         alt="footer-social-logo"
                       />
                     </Link>
-                    <Link>
+                    <Link to={'https://www.linkedin.com/company/bihar-international-trade-organisation/'}>
                       <Image
                         src={Linkedin}
                         className="social-links-img"

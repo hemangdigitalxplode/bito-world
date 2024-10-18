@@ -39,7 +39,7 @@
 .section-2-head {
    color: #422a1d;
    font-weight: 700;
-   font-size: 40px;
+   font-size: 29px;
 }
 
 .section-2-img {
@@ -401,11 +401,7 @@
    font-weight: 600;
 }
 
-.section-2-head {
-   color: #422a1d;
-   font-weight: 700;
-   font-size: 40px;
-}
+ 
 
 .section-2-img {
    max-width: 100%;
@@ -876,7 +872,7 @@
 }
 
 .objective-img {
-   width: 100%;
+   width: 70%;
 }
 
 .footer-info {

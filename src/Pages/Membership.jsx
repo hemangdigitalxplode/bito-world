@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
-import React from 'react'
+
+import React, { useRef } from 'react';
 import BannerHome from '../assets/membership-banner.png'
 import { Button, Col, Container, Image, Row } from 'react-bootstrap'
 import RightArrow from '../assets/right-arrow.png'
@@ -10,9 +11,15 @@ import Discount from '../assets/Discount.png'
 import Development from '../assets/Development.png'
 import Professional from '../assets/Professional.png'
 import Trades from '../assets/Trades.png'
+import { Link } from 'react-router-dom'
 
 
 const Membership = () => {
+
+
+
+
+
     return (
         <>
             {/* Home Banner */}
@@ -65,8 +72,14 @@ const Membership = () => {
                     <h1 className='text-center membership-heading'>Become a Member</h1>
 
                     <div style={{ gap: '10px', marginTop: '50px' }} className='becomeMember-2-heading'>
-                        <Button className=' py-2 member-btn'>Individual</Button>
-                        <Button className=' py-2 member-btn'>Corporate</Button>
+                        <a style={{ textDecoration: 'none' }} href="#enrollNow">
+
+                            <Button style={{ display: 'flex', flexDirection: 'column' }} className=' py-2 member-btn'> Individual <span style={{ fontSize: '16px' }}> (BITO)</span></Button>
+
+                        </a>
+
+                        <Button style={{ display: 'flex', flexDirection: 'column' }} className=' py-2 member-btn'>Corporate <span style={{ fontSize: '16px' }}> (BITO Industry Association) </span>
+                        </Button>
                     </div>
                 </Container>
             </div>
@@ -151,11 +164,12 @@ const Membership = () => {
 
 
 
-
-
-
             {/* CTA here */}
-            <MembershipCTA />
+            <div id="enrollNow">
+
+                <MembershipCTA />
+
+            </div>
 
 
         </>

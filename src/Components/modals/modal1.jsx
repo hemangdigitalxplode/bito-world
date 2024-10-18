@@ -80,7 +80,7 @@ const Modal1 = ({
         contentClassName="custom-modal-style" // New class added for styling
       >
         {/* Selector buttons for input of foreign and indian */}
-        <div className="form-top-selector">
+        {/* <div className="form-top-selector">
           <button
             className={`selector-btn ${activeButton === "foreign" ? "active" : ""}`}
             onClick={() => setActiveButton("foreign")}
@@ -93,9 +93,11 @@ const Modal1 = ({
           >
             Indian
           </button>
-        </div>
+        </div> */}
         <Modal.Body>
           <Form className="modalForm d-flex flex-column justify-content-center">
+          <h2 className="name-div-head text-center">Enroll
+          </h2>
             <Form.Group>
               <Form.Control
                 type="text"

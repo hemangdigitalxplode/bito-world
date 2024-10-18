@@ -11,6 +11,15 @@ const Header = () => {
 
   const handleClose = () => setShowOffcanvas(false);
   const handleShow = () => setShowOffcanvas(true);
+
+  const scrollToBottom = () => {
+    window.scrollTo({
+      top: document.documentElement.scrollHeight, // Scroll to the bottom
+      behavior: "smooth",
+    });
+  };
+
+
   return (
     <>
       {/* Desktop Navbar */}
@@ -31,10 +40,10 @@ const Header = () => {
                 Home
               </Nav.Link>
             </Link>
-            <Nav.Link href="#about" className="text-white">About</Nav.Link>
-            <Nav.Link href="#services" className="text-white">Our Work</Nav.Link>
+            <Nav.Link href="https://bitoworld.in/old-site/about.php" className="text-white">About</Nav.Link>
+            <Nav.Link href="https://bitoworld.in/old-site/history.php" className="text-white">Our Work</Nav.Link>
             <Nav.Link href="#leadership" className="text-white">Leadership</Nav.Link>
-            <Nav.Link href="#bsic" className="text-white">BSIC</Nav.Link>
+            <Nav.Link href="https://bitoworld.in/old-site/BSIC.php" className="text-white">BSIC</Nav.Link>
           </Nav>
 
           {/* Logo in the Middle */}
@@ -51,10 +60,11 @@ const Header = () => {
 
           {/* Right Nav Links (Desktop Only) */}
           <Nav className="ms-auto d-none d-lg-flex">
-            <Nav.Link href="#events" className="text-white">Events</Nav.Link>
-            <Nav.Link href="#media" className="text-white">Media</Nav.Link>
-            <Nav.Link href="#jobs" className="text-white">BITO Jobs</Nav.Link>
-            <Nav.Link href="#contact" className="text-white">Contact</Nav.Link>
+            <Nav.Link href="https://bitoworld.in/old-site/bitoashmita.php" className="text-white">Events</Nav.Link>
+            {/* <Nav.Link href="#media" className="text-white">Media</Nav.Link> */}
+            <Nav.Link href="https://bitoworld.in/old-site/career.php" className="text-white">BITO Jobs</Nav.Link>
+            
+            <Nav.Link onClick={scrollToBottom} className="text-white">Contact</Nav.Link>
 
             <Link to="/membership" style={{ textDecoration: 'none' }}>
               <Nav.Link href="/membership" className="text-white">
@@ -85,25 +95,25 @@ const Header = () => {
                 Home
               </Nav.Link>
             </Link>
-            <Nav.Link href="#about" className="text-dark" onClick={handleClose}>
+            <Nav.Link href="https://bitoworld.in/old-site/about.php" className="text-dark" onClick={handleClose}>
               About
             </Nav.Link>
-            <Nav.Link href="#services" className="text-dark" onClick={handleClose}>
+            <Nav.Link href="https://bitoworld.in/old-site/history.php" className="text-dark" onClick={handleClose}>
               Our Work
             </Nav.Link>
             <Nav.Link href="#leadership" className="text-dark" onClick={handleClose}>
               Leadership
             </Nav.Link>
-            <Nav.Link href="#bsic" className="text-dark" onClick={handleClose}>
+            <Nav.Link href="https://bitoworld.in/old-site/BSIC.php" className="text-dark" onClick={handleClose}>
               BSIC
             </Nav.Link>
-            <Nav.Link href="#events" className="text-dark" onClick={handleClose}>
+            <Nav.Link href="https://bitoworld.in/old-site/bitoashmita.php" className="text-dark" onClick={handleClose}>
               Events
             </Nav.Link>
             <Nav.Link href="#media" className="text-dark" onClick={handleClose}>
               Media
             </Nav.Link>
-            <Nav.Link href="#jobs" className="text-dark" onClick={handleClose}>
+            <Nav.Link href="https://bitoworld.in/old-site/career.php" className="text-dark" onClick={handleClose}>
               BITO Jobs
             </Nav.Link>
             <Nav.Link href="#contact" className="text-dark" onClick={handleClose}>
