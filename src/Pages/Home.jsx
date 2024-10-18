@@ -322,10 +322,12 @@ const Home = (props) => {
                 not only recognized but celebrated worldwide.
               </p>
             </div>
+            <Link to={'https://bitoworld.in/old-site/about.php'}>
+              <div>
+                <Button className="section-2-btn px-4 py-2">Learn More</Button>
+              </div>
+            </Link>
 
-            <div>
-              <Button className="section-2-btn px-4 py-2">Learn More</Button>
-            </div>
           </Col>
           {/* Right div for image */}
           <Col className="right-side-div mx-auto" lg={6}>
@@ -371,7 +373,7 @@ const Home = (props) => {
                 </Modal.Title>
               </Modal.Header>
               <Modal.Body>
-                
+
                 <p>
                   Dear All,
                   <br />
@@ -455,7 +457,7 @@ const Home = (props) => {
               </Modal.Title>
             </Modal.Header>
             <Modal.Body>
-              
+
 
               <p>
                 Dear All,
@@ -533,7 +535,7 @@ const Home = (props) => {
                 </Modal.Title>
               </Modal.Header>
               <Modal.Body>
-               
+
 
                 <p>
                   Dear All,
@@ -588,7 +590,7 @@ const Home = (props) => {
                 </Modal.Title>
               </Modal.Header>
               <Modal.Body>
-               
+
 
                 <p>
                   Dear All,
@@ -643,7 +645,7 @@ const Home = (props) => {
                 color: "#b27f4a",
                 marginTop: "30px",
                 fontWeight: "600",
-                textDecoration:'underline'
+                textDecoration: 'underline'
               }}
               className="text-center"
             >
