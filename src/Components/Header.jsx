@@ -5,7 +5,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import Logo from "../assets/logo.png";
 import { Link } from "react-router-dom";
 
-const Header = () => {
+const Header = ({ scrollToSection }) => {
 
   const [showOffcanvas, setShowOffcanvas] = useState(false);
 
@@ -15,6 +15,13 @@ const Header = () => {
   const scrollToBottom = () => {
     window.scrollTo({
       top: document.documentElement.scrollHeight, // Scroll to the bottom
+      behavior: "smooth",
+    });
+  };
+  const scrollToThirtyPercent = () => {
+    const thirtyPercentHeight = document.documentElement.scrollHeight * 0.3; // Calculate 30% of the page height
+    window.scrollTo({
+      top: thirtyPercentHeight, // Scroll to 30% height
       behavior: "smooth",
     });
   };
@@ -42,7 +49,7 @@ const Header = () => {
             </Link>
             <Nav.Link href="https://bitoworld.in/old-site/about.php" className="text-white">About</Nav.Link>
             <Nav.Link href="https://bitoworld.in/old-site/history.php" className="text-white">Our Work</Nav.Link>
-            <Nav.Link href="#leadership" className="text-white">Leadership</Nav.Link>
+            <Nav.Link onClick={scrollToThirtyPercent} className="text-white">Leadership</Nav.Link>
             <Nav.Link href="https://bitoworld.in/old-site/BSIC.php" className="text-white">BSIC</Nav.Link>
           </Nav>
 
@@ -63,7 +70,7 @@ const Header = () => {
             <Nav.Link href="https://bitoworld.in/old-site/bitoashmita.php" className="text-white">Events</Nav.Link>
             {/* <Nav.Link href="#media" className="text-white">Media</Nav.Link> */}
             <Nav.Link href="https://bitoworld.in/old-site/career.php" className="text-white">BITO Jobs</Nav.Link>
-            
+
             <Nav.Link onClick={scrollToBottom} className="text-white">Contact</Nav.Link>
 
             <Link to="/membership" style={{ textDecoration: 'none' }}>
@@ -90,7 +97,7 @@ const Header = () => {
         </Offcanvas.Header>
         <Offcanvas.Body>
           <Nav className="flex-column">
-            <Link style={{textDecoration:'none'}} to={'/'}> 
+            <Link style={{ textDecoration: 'none' }} to={'/'}>
               <Nav.Link href="/" className="text-dark" onClick={handleClose}>
                 Home
               </Nav.Link>
