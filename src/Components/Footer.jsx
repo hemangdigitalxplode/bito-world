@@ -64,11 +64,13 @@ const Footer = () => {
             >
               <div className="quick-links">
                 <p style={{ fontSize: '15px', fontWeight: '600' }}>Quick Links</p>
-                <li href="/">Home</li>
-                <li>About</li>
-                <li  href="https://bitoworld.in/old-site/history.php">Our Work</li>
-                <li>Chapter</li>
-                <li>Bihar Voice</li>
+                <a style={{ textDecoration: 'none', color: 'black' }} href="/">Home</a>
+                {/* <li>About</li> */}
+                <a style={{ textDecoration: 'none', color: 'black' }} href="https://bitoworld.in/old-site/history.php"><li>Our Work</li></a>
+
+                {/* <li>Chapter</li>
+                <li>Bihar Voice</li> */}
+
               </div>
             </Col>
 
@@ -77,14 +79,20 @@ const Footer = () => {
               lg={3}
             >
               <div className="quick-links-2">
-                <li>EOI for BIA</li>
-                <li href="https://bitoworld.in/old-site/BSIC.php">BSIC</li>
-                <li href="https://bitoworld.in/old-site/bitoashmita.php">Events</li>
-                <li>Media</li>
-                <li href="https://bitoworld.in/old-site/career.php">Job</li>
+                {/* <li>EOI for BIA</li> */}
+                <Link to={'https://bitoworld.in/old-site/BSIC.php'}></Link>
+                <a style={{ textDecoration: 'none', color: 'black' }} href="https://bitoworld.in/old-site/BSIC.php"><li >BSIC</li></a>
+
+                <Link style={{ textDecoration: 'none', color: 'black' }} to={'https://bitoworld.in/old-site/bitoashmita.php'}>Events</Link>
+
+                {/* <li>Media</li> */}
+                <a style={{ textDecoration: 'none', color: 'black' }} href="https://bitoworld.in/old-site/career.php"><li>Job</li></a>
+
+
+
                 <li>Contact</li>
-                <Link  style={{textDecoration:'none',color:'black'}} to={'/membership'}>Membership</Link>
-                 
+                <Link style={{ textDecoration: 'none', color: 'black' }} to={'/membership'}>Membership</Link>
+
               </div>
             </Col>
 

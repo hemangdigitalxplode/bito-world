@@ -117,9 +117,9 @@ const Header = ({ scrollToSection }) => {
             <Nav.Link href="https://bitoworld.in/old-site/bitoashmita.php" className="text-dark" onClick={handleClose}>
               Events
             </Nav.Link>
-            <Nav.Link href="#media" className="text-dark" onClick={handleClose}>
+            {/* <Nav.Link href="#media" className="text-dark" onClick={handleClose}>
               Media
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link href="https://bitoworld.in/old-site/career.php" className="text-dark" onClick={handleClose}>
               BITO Jobs
             </Nav.Link>

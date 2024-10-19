@@ -401,7 +401,7 @@
    font-weight: 600;
 }
 
- 
+
 
 .section-2-img {
    max-width: 100%;
@@ -900,6 +900,7 @@
    padding: 40px 20px;
    border-radius: 20px;
 }
+
 .president-card-2 {
    border: 8px solid #b27f4a;
    padding: 52px 20px;
@@ -924,26 +925,31 @@
    align-items: center;
    justify-content: center;
 }
-.img-2-3to4yr{
+
+.img-2-3to4yr {
    width: 90%;
 }
-.infographic-div{
+
+.infographic-div {
    display: flex;
    align-items: center;
    gap: 10px;
 }
-.infographic-container{
+
+.infographic-container {
    margin-top: 35px;
 }
-.name-div-head{
+
+.name-div-head {
    color: #422a1d;
-  font-weight: 700;
-  font-size: 21px;
+   font-weight: 700;
+   font-size: 21px;
 }
-.name-div-subhead{
+
+.name-div-subhead {
    font-size: 12px;
-  color: #523b2f;
-  font-weight: 600;
+   color: #523b2f;
+   font-weight: 600;
 }
 
 
@@ -1146,11 +1152,29 @@
       align-items: center;
       gap: 30px;
    }
-   .img-2-3to4yr{
+
+   .img-2-3to4yr {
       width: 100%;
    }
-   .amreesh-div{
+
+   .amreesh-div {
       margin-top: 10px;
+   }
+
+   .infographic-div img {
+      width: 30px;
+   }
+
+   .member-btn {
+      border-radius: 35px;
+      background-color: transparent;
+      color: #9c7041;
+      padding: 0 60px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      border-color: #9c7041;
+      font-size: 20px;
+      font-weight: 700;
    }
 
 }
