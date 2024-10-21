@@ -455,9 +455,7 @@ const Home = (props) => {
             autoplay={{
               delay: 2000, // Set autoplay delay to 4 seconds
               disableOnInteraction: false, // Keep autoplay running after interaction
-            }}
-
-
+            }} 
             pagination={{
               clickable: true, // Enables clickable pagination dots
               dynamicBullets: true, // Makes pagination bullets interactive

@@ -12,7 +12,7 @@ const GlobalPresenceSlider = () => {
 
             </Container>
             <div className="general-container my-5">
-                <input className="radio" type="radio" name="card" id="cardUno"  />
+                <input className="radio" type="radio" name="card" id="cardUno" />
                 <label className="content" htmlFor="cardUno">
                     <h1 className="title-card">
                         <span className="marg-bott">SINGAPORE</span>
@@ -47,13 +47,14 @@ const GlobalPresenceSlider = () => {
                     </h1>
                 </label>
 
-                <input className="radio" type="radio" name="card" id="cardUk" checked />
+                <input className="radio" type="radio" name="card" id="cardUk" />
                 <label className="content" htmlFor="cardUk">
                     <h1 className="title-card">
                         <span className="marg-bott">LONDON</span>
                     </h1>
                 </label>
             </div>
+
 
 
         </>

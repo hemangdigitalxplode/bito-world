@@ -1016,7 +1016,8 @@
    margin-right: 0.8rem;
    overflow: hidden;
    position: relative;
-   transition: all 0.5s cubic-bezier(0.05, 0.60, 0.39, 0.94);
+   transition: all 0.8s ease-in-out; /* Smooth transition */
+  
 }
 
 .content::before {
@@ -1035,7 +1036,9 @@
 }
 
 .content:hover {
+     /* Bring color back on hover */
    box-shadow: 0.7rem 0.7rem 0.5rem rgba(0, 0, 0, 0.3);
+   transition: all 0.5s ease-in-out; /* Smooth hover transition */
 }
 
 .content:nth-of-type(2) {
@@ -1072,7 +1075,7 @@
 
 .content:nth-of-type(6) {
    background: transparent;
-   background-image: url("https://images.pexels.com/photos/427679/pexels-photo-427679.jpeg?auto=compress&cs=tinysrgb&w=600");
+   background-image: url("https://images.pexels.com/photos/726484/pexels-photo-726484.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center;
@@ -1127,9 +1130,9 @@
 }
 
 .radio:checked+.content {
-   /* border-radius: 2rem; */
-   box-shadow: 0.3rem 0.3rem 0.4rem rgba(0, 0, 0, 0.3);
-   flex: 9;
+    /* Apply color when checked */
+  flex: 9; /* Expand active slide smoothly */
+  transition: all 0.8s ease-in-out;
 }
 
 .radio:checked+.content>.card-title {
