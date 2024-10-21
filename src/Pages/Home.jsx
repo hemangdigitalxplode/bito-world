@@ -33,6 +33,7 @@ import {
 import OurPartner from "../Components/OurPartner";
 import { Link } from "react-router-dom";
 import Modal from 'react-bootstrap/Modal';
+import GlobalPresenceSlider from "../Components/GlobalPresenceSlider";
 
 
 
@@ -449,11 +450,11 @@ const Home = (props) => {
           <Swiper
             spaceBetween={20}
             slidesPerView={2}
-            speed= {1200}
-             // Enables infinite loop
+            speed={1200}
+            // Enables infinite loop
             autoplay={{
               delay: 1000, // Sets autoplay speed to 4000ms (4 seconds)
-               // Autoplay continues even after user interaction
+              // Autoplay continues even after user interaction
             }}
 
 
@@ -1054,6 +1055,12 @@ const Home = (props) => {
           Read more
         </button> */}
       </Container>
+
+      {/* Global Presence Slider */}
+
+      <div className="my-5">
+        <GlobalPresenceSlider />
+      </div>
 
       <div className="my-5">
         <OurPartner />
