@@ -266,7 +266,7 @@ const Home = (props) => {
                 With a dedicated team, advanced infrastructure, and extensive resources, we offer a seamless experience through our Single-Window Clearance system.
               </p>
               <p>
-                <span style={{ fontWeight: 'bold' }}>Explore diverse opportunities </span>
+                <span style={{ fontWeight: 'bold' }}>Explore Diverse Opportunities </span>
                 to make
                 a significant impact:
               </p>
@@ -758,10 +758,10 @@ const Home = (props) => {
 
       {/* Fifth Section */}
       <h1
-        style={{textDecoration:'underline'}}
+        
         className="text-center section-3-heading"
       >
-        Meet our Advisory Board
+        Meet Our Advisory Board
       </h1>
 
       <Container className="my-5">
@@ -942,7 +942,7 @@ const Home = (props) => {
                 (BSIC)
               </strong>
             </div>
-            <div className="d-flex flex-column align-items-center px-5 border-start border-end">
+            <div className="d-flex flex-column align-items-center px-5 section-2-container">
               <Image
                 className="section-2-img p-3"
                 src={Layer28}
@@ -998,7 +998,7 @@ const Home = (props) => {
             />
             <strong>Business Connect and Collaboration</strong>
           </div>
-          <div className="d-flex flex-column align-items-center px-5 border-start border-end">
+          <div className="d-flex flex-column align-items-center px-5 section-2-container">
             <Image
               className="section-2-img p-3"
               src={Layer31}
@@ -1020,7 +1020,7 @@ const Home = (props) => {
             />
             <strong>Bihar University</strong>
           </div>
-          <div className="d-flex flex-column align-items-center px-5 border-start">
+          <div className="d-flex flex-column align-items-center px-5 section-2-container">
             <Image
               className="section-2-img p-3"
               src={Layer34}

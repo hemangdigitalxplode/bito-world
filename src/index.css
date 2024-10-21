@@ -1152,6 +1152,11 @@
    font-size: 20px;
 }
 
+.section-2-container {
+   border-left: 1px solid #ccc; /* Replace with your border color */
+   border-right: 1px solid #ccc;
+ }
+
 
 
 
@@ -1192,6 +1197,7 @@
 
    .left-side-div {
       max-width: 100%;
+      margin-top: 20px;
    }
 
    .section-2-btn {
@@ -1389,5 +1395,14 @@
    .our-partner-head {
       font-size: 28px;
    }
+   .section-2-container {
+      border-left: none;
+      border-right: none;
+    }
+    .president-card-3 {
+      border: 8px solid #b27f4a;
+      padding: 40px 20px;
+      border-radius: 20px;
+    }
 
 }

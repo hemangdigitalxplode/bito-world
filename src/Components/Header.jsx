@@ -18,8 +18,9 @@ const Header = ({ scrollToSection }) => {
       behavior: "smooth",
     });
   };
+
   const scrollToThirtyPercent = () => {
-    const thirtyPercentHeight = document.documentElement.scrollHeight * 0.3; // Calculate 30% of the page height
+    const thirtyPercentHeight = document.documentElement.scrollHeight * 0.27; // Calculate 30% of the page height
     window.scrollTo({
       top: thirtyPercentHeight, // Scroll to 30% height
       behavior: "smooth",
