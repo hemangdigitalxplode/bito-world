@@ -1,4 +1,4 @@
-/* eslint-disable no-unused-vars */
+ 
 
 import React from "react";
 import BannerHome from "../assets/home-baner.png";
@@ -451,21 +451,22 @@ const Home = (props) => {
             spaceBetween={20}
             slidesPerView={2}
             speed={1200}
-            // Enables infinite loop
+            loop={true}
             autoplay={{
-              delay: 1000, // Sets autoplay speed to 4000ms (4 seconds)
-              // Autoplay continues even after user interaction
+              delay: 2000, // Set autoplay delay to 4 seconds
+              disableOnInteraction: false, // Keep autoplay running after interaction
             }}
 
 
             pagination={{
-              clickable: true,  // Enables clickable pagination dots
-              dynamicBullets: true, // Optional: Makes pagination bullets more interactive
+              clickable: true, // Enables clickable pagination dots
+              dynamicBullets: true, // Makes pagination bullets interactive
             }}
             breakpoints={{
               0: { slidesPerView: 1 },  // Mobile: 1 card per slide
               768: { slidesPerView: 2 } // Desktop/Tablet: 2 cards per slide
             }}
+            modules={[Autoplay, Pagination]}
             className="mt-5"
           >
             {/* Slide 1 */}
@@ -526,7 +527,7 @@ const Home = (props) => {
             {/* Slide 3 */}
             <SwiperSlide>
               <Col>
-                <div className="president-card">
+                <div className="president-card-3">
                   <div className="upper-title">
                     <Image style={{ objectFit: 'cover' }} className="img-2-president" src={Jeff} alt="amresh-ji" />
                     <div className="name-div">
@@ -753,37 +754,18 @@ const Home = (props) => {
             </Col>
           </Row> */}
 
-          {/* Meet our Advisory Board */}
-          <div className="w-100 mx-auto">
-            <h1
-              style={{
-                fontSize: "25px",
-                position: "relative",
-                color: "#b27f4a",
-                marginTop: "30px",
-                fontWeight: "600",
-                textDecoration: 'underline'
-              }}
-              className="text-center"
-            >
-              Meet our Advisory Board
-              {/* <span
-                style={{
-                  position: "absolute",
-                  bottom: "-10px", // Adjusts distance below the heading
-                  left: "50%",
-                  transform: "translateX(-50%)",
-                  width: "280px", // Width of the underline
-                  height: "2px", // Thickness of the underline
-                  backgroundColor: "#b27f4a", // Color of the underline
-                }}
-              ></span> */}
-            </h1>
-          </div>
+         
         </Container>
       </div>
 
       {/* Fifth Section */}
+      <h1
+        style={{textDecoration:'underline'}}
+        className="text-center section-3-heading"
+      >
+        Meet our Advisory Board
+      </h1>
+
       <Container className="my-5">
         <Row style={{ background: "#422a1d" }}>
           <Col className="p-5" lg={4}>

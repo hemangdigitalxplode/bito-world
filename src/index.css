@@ -227,6 +227,21 @@
    opacity: 1;
 }
 
+.swiper-pagination {
+   display: flex !important;
+   justify-content: center;
+   align-items: center;
+   margin: 15px auto;
+}
+
+.swiper-pagination span {
+   border-radius: 50%;
+   width: 15px;
+   height: 15px;
+   cursor: pointer;
+   background-color: #b27f4a !important;
+}
+
 /* Footer CSS */
 .footer-logo {
    width: 70%;
@@ -925,6 +940,11 @@
    padding: 40px 20px;
    border-radius: 20px;
 }
+.president-card-3 {
+   border: 8px solid #b27f4a;
+   padding: 50px 20px;
+   border-radius: 20px;
+}
 
 .img-2-president {
    width: 30%;
@@ -1358,10 +1378,12 @@
       font-size: 20px;
       font-weight: 700;
    }
-   .global-presence-head{
+
+   .global-presence-head {
       font-size: 28px;
    }
-   .our-partner-head{
+
+   .our-partner-head {
       font-size: 28px;
    }
 
