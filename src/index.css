@@ -213,6 +213,18 @@
 .mainSwiper .swiper-button-next {
    right: 10%;
 }
+.swiper-pagination-bullet {
+   background-color: #007bff;
+   width: 10px;
+   height: 10px;
+   opacity: 0.7;
+   margin: 0 5px;
+ }
+ 
+ .swiper-pagination-bullet-active {
+   background-color: #0056b3;
+   opacity: 1;
+ }
 
 /* Footer CSS */
 .footer-logo {
@@ -903,7 +915,7 @@
 
 .president-card-2 {
    border: 8px solid #b27f4a;
-   padding: 52px 20px;
+   padding: 40px 20px;
    border-radius: 20px;
 }
 

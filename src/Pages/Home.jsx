@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 
 import React from "react";
 import BannerHome from "../assets/home-baner.png";
@@ -12,7 +13,7 @@ import Mission from "../assets/Layer-22.png";
 import Kamal from '../assets/kamal.png'
 import Jeff from '../assets/Jheff.jpg'
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper/modules";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import {
@@ -440,9 +441,117 @@ const Home = (props) => {
               </div>
             </Col>
           </Row>
+          {/* here comes the slider */}
           {/* Fouth Section */}
           {/* Prvin kumar */}
           {/* Pravin Kumar Modal */}
+
+          <Swiper
+            spaceBetween={20}
+            slidesPerView={2}
+            speed= {1200}
+             // Enables infinite loop
+            autoplay={{
+              delay: 1000, // Sets autoplay speed to 4000ms (4 seconds)
+               // Autoplay continues even after user interaction
+            }}
+
+
+            pagination={{
+              clickable: true,  // Enables clickable pagination dots
+              dynamicBullets: true, // Optional: Makes pagination bullets more interactive
+            }}
+            breakpoints={{
+              0: { slidesPerView: 1 },  // Mobile: 1 card per slide
+              768: { slidesPerView: 2 } // Desktop/Tablet: 2 cards per slide
+            }}
+            className="mt-5"
+          >
+            {/* Slide 1 */}
+            <SwiperSlide>
+              <Col>
+                <div className="president-card-2">
+                  <div className="upper-title">
+                    <Image className="img-2-president" src={PravinKumar} alt="pravin-kumar" />
+                    <div className="name-div">
+                      <h2 className="name-div-head">Pravin Kumar</h2>
+                      <p className="name-div-subhead">President</p>
+                    </div>
+                  </div>
+                  <p className="chairmain-inner">
+                    Welcome to Bihar International Trade Organization
+                  </p>
+                  <p className="chairmain-msg">
+                    Dear All,
+                    <br /><br />
+                    It is with great pride and responsibility that I address you...
+                  </p>
+                  <div>
+                    <Button onClick={() => setModalShow2(true)} className="section-3-btn px-4 py-2">
+                      Read More
+                    </Button>
+                  </div>
+                </div>
+              </Col>
+            </SwiperSlide>
+
+            {/* Slide 2 */}
+            <SwiperSlide>
+              <Col>
+                <div className="president-card">
+                  <div className="upper-title">
+                    <Image className="img-2-president" src={Amresh} alt="amresh-ji" />
+                    <div className="name-div">
+                      <h2 className="name-div-head">Amaresh Mishra</h2>
+                      <p className="name-div-subhead">Secretary-General</p>
+                    </div>
+                  </div>
+                  <p className="chairmain-inner">
+                    Welcome to Bihar International Trade Organization
+                  </p>
+                  <p className="chairmain-msg">
+                    Dear All, <br /><br />
+                    As Secretary General of BITO, I am proud to lead an organization...
+                  </p>
+                  <div>
+                    <Button onClick={() => setModalShow3(true)} className="section-3-btn px-4 py-2">
+                      Read More
+                    </Button>
+                  </div>
+                </div>
+              </Col>
+            </SwiperSlide>
+
+            {/* Slide 3 */}
+            <SwiperSlide>
+              <Col>
+                <div className="president-card">
+                  <div className="upper-title">
+                    <Image style={{ objectFit: 'cover' }} className="img-2-president" src={Jeff} alt="amresh-ji" />
+                    <div className="name-div">
+                      <h2 className="name-div-head">Clr. Jeff Whitton FAICD</h2>
+                      <p className="name-div-subhead">Honorary Global Advisor</p>
+                    </div>
+                  </div>
+                  <p className="chairmain-inner">
+                    Welcome to Bihar International Trade Organization
+                  </p>
+                  <p className="chairmain-msg">
+                    Dear All, <br /><br />
+                    Clr. Jeff Whitton FAICD, is an esteemed Australian businessman...
+                  </p>
+                  <div>
+                    <Button onClick={() => setModalShow4(true)} className="section-3-btn px-4 py-2">
+                      Read More
+                    </Button>
+                  </div>
+                </div>
+              </Col>
+            </SwiperSlide>
+          </Swiper>
+
+          {/* New Modal ends here */}
+
           <Modal
             {...props}
             size="lg"
@@ -488,7 +597,75 @@ const Home = (props) => {
             </Modal.Body>
 
           </Modal>
-          <Row className="mt-5">
+          {/* Aamreesh mishra modal */}
+          <Modal
+            {...props}
+            size="lg"
+            aria-labelledby="contained-modal-title-vcenter"
+            centered
+            show={modalShow3}
+            onHide={handleClose3}
+          >
+            <Modal.Header closeButton>
+              <Modal.Title id="contained-modal-title-vcenter">
+                <h2 className="name-div-head">Amaresh Mishra
+                </h2>
+                <p className="name-div-subhead">Secretary-General
+                </p>
+              </Modal.Title>
+            </Modal.Header>
+            <Modal.Body>
+
+
+              <p>
+                Dear All,
+                <br />
+                <br />
+                As Secretary General of BITO, I am proud to lead an organization that drives innovation and collaboration in our industry. Our commitment to advancing technology and fostering global partnerships has never been stronger. Together, we will continue to overcome challenges and create opportunities for sustainable growth and development.
+              </p>
+            </Modal.Body>
+
+          </Modal>
+          {/* Jeff Modal */}
+          <Modal
+            {...props}
+            size="lg"
+            aria-labelledby="contained-modal-title-vcenter"
+            centered
+            show={modalShow4}
+            onHide={handleClose4}
+          >
+            <Modal.Header closeButton>
+              <Modal.Title id="contained-modal-title-vcenter">
+                <h2 className="name-div-head">Clr. Jeff Whitton FAICD</h2>
+                <p className="name-div-subhead">Honorary Global Advisor
+                </p>
+              </Modal.Title>
+            </Modal.Header>
+            <Modal.Body>
+
+
+              <p>
+                Dear All,
+                <br />
+                <br />
+                Clr. Jeff Whitton FAICD, is an esteemed Australian businessman and entrepreneur with over three decades of industry leadership. With 20 years of dedicated service as a Local Government councillor, Jeff has been a driving force in public service and community development, leaving a lasting impact on the communities he serves. His exceptional career spans 40 years in Digital Technology, Cybersecurity, and Information Intelligence, making him a formidable expert in these critical domains.
+                <br />
+                <br />
+                As a seasoned CEO and Board Chairman, Jeff is celebrated for his visionary leadership and strategic acumen. He is a passionate advocate for Regional Australia, where he has been a relentless champion for initiatives that drive social, economic, and cultural transformation. Jeff’s unwavering commitment to progress underscores his reputation as a trailblazer who is deeply invested in shaping the future of Australia’s regional landscapes.
+                <br />
+                <br />
+                In his capacity as a Global Advisor, Jeff Whitton is set to lead and fortify the burgeoning partnership between Australia and India, with a special focus on the Bihar International Trade Organisation (BITO). At the core of BITO’s mission is the powerful concept of Bihari Asmita, which champions the vibrant cultural identity and pride of Bihar. Jeff is poised to advance BITO’s vision, propelling the revival and celebration of Bihar’s rich traditions, arts, crafts, and heritage. He recognizes that this cultural renaissance is vital for cultivating a dynamic community of entrepreneurs and innovators who are rooted in their heritage while striving for global excellence.
+                <br />
+                <br />
+                Jeff’s leadership will be a catalyst in forging strong collaborations that bridge the cultural and economic ties between Australia and India. His visionary approach will ensure that BITO continues to ignite a deep sense of pride and belonging among Biharis, empowering them to excel on the global stage. Under his stewardship, the relationship between these two great nations, particularly through BITO’s initiatives, is destined to flourish, creating transformative opportunities that celebrate and elevate the rich cultural legacy of Bihar.
+              </p>
+            </Modal.Body>
+
+          </Modal>
+
+          {/* Old UX to show commite members */}
+          {/* <Row className="mt-5">
             <Col lg={4}>
               <div className="president-card-2">
                 <div className="upper-title">
@@ -518,35 +695,7 @@ const Home = (props) => {
                 </div>
               </div>
             </Col>
-            {/* Aamreesh mishra modal */}
-            <Modal
-              {...props}
-              size="lg"
-              aria-labelledby="contained-modal-title-vcenter"
-              centered
-              show={modalShow3}
-              onHide={handleClose3}
-            >
-              <Modal.Header closeButton>
-                <Modal.Title id="contained-modal-title-vcenter">
-                  <h2 className="name-div-head">Amaresh Mishra
-                  </h2>
-                  <p className="name-div-subhead">Secretary-General
-                  </p>
-                </Modal.Title>
-              </Modal.Header>
-              <Modal.Body>
-
-
-                <p>
-                  Dear All,
-                  <br />
-                  <br />
-                  As Secretary General of BITO, I am proud to lead an organization that drives innovation and collaboration in our industry. Our commitment to advancing technology and fostering global partnerships has never been stronger. Together, we will continue to overcome challenges and create opportunities for sustainable growth and development.
-                </p>
-              </Modal.Body>
-
-            </Modal>
+         
             <Col className="amreesh-div" lg={4}>
               <div className="president-card">
                 <div className="upper-title">
@@ -573,44 +722,8 @@ const Home = (props) => {
                 </div>
               </div>
             </Col>
-            {/* Jeff div */}
-            {/* Jeff Modal */}
-            <Modal
-              {...props}
-              size="lg"
-              aria-labelledby="contained-modal-title-vcenter"
-              centered
-              show={modalShow4}
-              onHide={handleClose4}
-            >
-              <Modal.Header closeButton>
-                <Modal.Title id="contained-modal-title-vcenter">
-                  <h2 className="name-div-head">Clr. Jeff Whitton FAICD</h2>
-                  <p className="name-div-subhead">Honorary Global Advisor
-                  </p>
-                </Modal.Title>
-              </Modal.Header>
-              <Modal.Body>
-
-
-                <p>
-                  Dear All,
-                  <br />
-                  <br />
-                  Clr. Jeff Whitton FAICD, is an esteemed Australian businessman and entrepreneur with over three decades of industry leadership. With 20 years of dedicated service as a Local Government councillor, Jeff has been a driving force in public service and community development, leaving a lasting impact on the communities he serves. His exceptional career spans 40 years in Digital Technology, Cybersecurity, and Information Intelligence, making him a formidable expert in these critical domains.
-                  <br />
-                  <br />
-                  As a seasoned CEO and Board Chairman, Jeff is celebrated for his visionary leadership and strategic acumen. He is a passionate advocate for Regional Australia, where he has been a relentless champion for initiatives that drive social, economic, and cultural transformation. Jeff’s unwavering commitment to progress underscores his reputation as a trailblazer who is deeply invested in shaping the future of Australia’s regional landscapes.
-                  <br />
-                  <br />
-                  In his capacity as a Global Advisor, Jeff Whitton is set to lead and fortify the burgeoning partnership between Australia and India, with a special focus on the Bihar International Trade Organisation (BITO). At the core of BITO’s mission is the powerful concept of Bihari Asmita, which champions the vibrant cultural identity and pride of Bihar. Jeff is poised to advance BITO’s vision, propelling the revival and celebration of Bihar’s rich traditions, arts, crafts, and heritage. He recognizes that this cultural renaissance is vital for cultivating a dynamic community of entrepreneurs and innovators who are rooted in their heritage while striving for global excellence.
-                  <br />
-                  <br />
-                  Jeff’s leadership will be a catalyst in forging strong collaborations that bridge the cultural and economic ties between Australia and India. His visionary approach will ensure that BITO continues to ignite a deep sense of pride and belonging among Biharis, empowering them to excel on the global stage. Under his stewardship, the relationship between these two great nations, particularly through BITO’s initiatives, is destined to flourish, creating transformative opportunities that celebrate and elevate the rich cultural legacy of Bihar.
-                </p>
-              </Modal.Body>
-
-            </Modal>
+             
+          
 
             <Col className="amreesh-div" lg={4}>
               <div className="president-card">
@@ -637,7 +750,9 @@ const Home = (props) => {
                 </div>
               </div>
             </Col>
-          </Row>
+          </Row> */}
+
+          {/* Meet our Advisory Board */}
           <div className="w-100 mx-auto">
             <h1
               style={{
