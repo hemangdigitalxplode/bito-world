@@ -1,4 +1,3 @@
- 
 
 import React from "react";
 import BannerHome from "../assets/home-baner.png";

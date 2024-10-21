@@ -74,14 +74,15 @@ const Membership = () => {
                     <div style={{ gap: '10px', marginTop: '50px' }} className='becomeMember-2-heading'>
                         <a style={{ textDecoration: 'none' }} href="#enrollNow">
 
-                            <Button style={{ display: 'flex', flexDirection: 'column',alignItems:'center',justifyContent:'center' }} className=' py-2 member-btn'> Individual <span style={{ fontSize: '16px' }}> (BITO)</span></Button>
+                            <Button style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }} className=' py-2 member-btn'> Individual <span style={{ fontSize: '16px' }}> (BITO)</span></Button>
 
                         </a>
+                        <a style={{ textDecoration: 'none' }} href="#enrollNow"> 
+                            <Button style={{ display: 'flex', flexDirection: 'column' }} className=' py-2 member-btn'>Corporate <span style={{ fontSize: '16px' }}> (BITO Industry Association) </span>
+                            </Button>
+                        </a>
 
-                        
 
-                        <Button style={{ display: 'flex', flexDirection: 'column' }} className=' py-2 member-btn'>Corporate <span style={{ fontSize: '16px' }}> (BITO Industry Association) </span>
-                        </Button>
                     </div>
                 </Container>
             </div>
